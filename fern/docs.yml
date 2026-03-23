@@ -21,13 +21,13 @@ layout:
 tabs:
   database:
     display-name: Database
-    icon: database
+    icon: docs/assets/lucide/database.svg
   explore:
-    display-name: Explore Breakdowns
-    icon: chart-pie
+    display-name: Segmented Analytics
+    icon: docs/assets/lucide/pie-chart.svg
   research:
     display-name: Research & Reports
-    icon: book
+    icon: docs/assets/lucide/book.svg
 navigation:
   - tab: database
     layout:
@@ -35,92 +35,116 @@ navigation:
         contents:
           - page: Welcome
             path: docs/pages/welcome.mdx
-            icon: house
+            icon: docs/assets/lucide/home.svg
           - page: Master Directory
             path: docs/pages/master-directory.mdx
-            icon: address-book
+            icon: docs/assets/lucide/book-user.svg
           - page: Aggregate Statistics
             path: docs/pages/statistics.mdx
-            icon: bar-chart-3
+            icon: docs/assets/lucide/bar-chart-3.svg
       - section: Complete Records
         contents:
           - page: Full Incident Dataset
             path: docs/pages/victim-data.mdx
-            icon: table
+            icon: docs/assets/lucide/table.svg
       - section: Informational
         contents:
           - page: Support Resources
             path: docs/pages/support.mdx
-            icon: headset
+            icon: docs/assets/lucide/headphones.svg
           - changelog: docs/changelog
 
   - tab: explore
     layout:
       - section: Timeline Breakdown
-        icon: clock
+        icon: docs/assets/lucide/clock.svg
         contents:
           - page: Early Years (1873–1969)
             path: docs/pages/timeline-early.mdx
-            icon: hourglass
+            icon: docs/assets/lucide/hourglass.svg
           - page: 1970s & 1980s
             path: docs/pages/timeline-70s80s.mdx
-            icon: hourglass
+            icon: docs/assets/lucide/hourglass.svg
           - page: 1990s & 2000s
             path: docs/pages/timeline-90s00s.mdx
-            icon: hourglass
+            icon: docs/assets/lucide/hourglass.svg
           - page: 2010–2019
             path: docs/pages/timeline-10s.mdx
-            icon: calendar
+            icon: docs/assets/lucide/calendar.svg
           - page: 2020–Present
             path: docs/pages/timeline-20s.mdx
-            icon: calendar-check
+            icon: docs/assets/lucide/calendar.svg-check
           - page: Unknown Year
             path: docs/pages/timeline-unknown.mdx
-            icon: help-circle
+            icon: docs/assets/lucide/help-circle.svg
       - section: By Cause of Death
-        icon: skull
+        icon: docs/assets/lucide/skull.svg
         contents:
           - page: Alcohol-Related
             path: docs/pages/cause-alcohol.mdx
-            icon: wine
+            icon: docs/assets/lucide/wine.svg
           - page: Falls
             path: docs/pages/cause-falls.mdx
-            icon: person-falling
+            icon: docs/assets/lucide/user-minus.svg
           - page: Vehicle & Traffic
             path: docs/pages/cause-vehicle.mdx
-            icon: car
+            icon: docs/assets/lucide/car.svg
           - page: Drowning
             path: docs/pages/cause-drowning.mdx
-            icon: waves
+            icon: docs/assets/lucide/waves.svg
           - page: Physical Trauma & Abuse
             path: docs/pages/cause-physical.mdx
-            icon: hand
+            icon: docs/assets/lucide/hand.svg
           - page: Other Causes
             path: docs/pages/cause-other.mdx
-            icon: circle-exclamation
+            icon: docs/assets/lucide/alert-circle.svg
       - section: Organization & Geography
-        icon: building-2
+        icon: docs/assets/lucide/building-2.svg
         contents:
           - page: Greek Organizations
             path: docs/pages/by-organization.mdx
-            icon: building-2
+            icon: docs/assets/lucide/building-2.svg
           - page: Geographic Distribution
             path: docs/pages/by-state.mdx
-            icon: map-pin
+            icon: docs/assets/lucide/map-pin.svg
 
   - tab: research
     layout:
-      - section: Analytical Reports
+      - section: Hazing Mortality Research
         contents:
-          - page: Hazing Mortality Research
-            path: docs/pages/hazing-mortality-research.mdx
-            icon: file-text
-          - page: Obfuscated & Misattributed Deaths
-            path: docs/pages/obfuscated-cases.mdx
-            icon: mask
-          - page: Drug Enforcement Actions
-            path: docs/pages/drug-enforcement.mdx
-            icon: pill
+          - page: Overview & Methodology
+            path: docs/pages/hazing-overview.mdx
+            icon: docs/assets/lucide/file-text.svg
+          - page: Modern Case Studies
+            path: docs/pages/modern-cases.mdx
+            icon: docs/assets/lucide/search.svg
+          - page: Pi Kappa Phi Analysis
+            path: docs/pages/pi-kappa-phi.mdx
+            icon: docs/assets/lucide/bar-chart-2.svg
+          - page: Findings & Recommendations
+            path: docs/pages/hazing-conclusions.mdx
+            icon: docs/assets/lucide/check-circle.svg
+            
+      - section: Cover-ups & Obfuscation
+        contents:
+          - page: Obfuscation Patterns
+            path: docs/pages/obfuscation-patterns.mdx
+            icon: docs/assets/lucide/venetian-mask.svg
+          - page: Major Case Studies
+            path: docs/pages/obfuscation-case-studies.mdx
+            icon: docs/assets/lucide/gavel.svg
+          - page: Legal Trends & Findings
+            path: docs/pages/obfuscation-legal.mdx
+            icon: docs/assets/lucide/scale.svg
+            
+      - section: Drug Enforcement Actions
+        contents:
+          - page: Major Operations
+            path: docs/pages/drugs-operations.mdx
+            icon: docs/assets/lucide/pill.svg
+          - page: Seizures & Statistics
+            path: docs/pages/drugs-statistics.mdx
+            icon: docs/assets/lucide/trending-up.svg
 
 navbar-links:
   - type: minimal
