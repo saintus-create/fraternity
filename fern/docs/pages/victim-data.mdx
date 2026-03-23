@@ -1,0 +1,69 @@
+---
+title: Victim Data
+description: Comprehensive victim data for fraternity and sorority related incidents
+---
+
+# Victim Data
+
+This documentation contains comprehensive victim data related to fraternity and sorority incidents across various years and institutions.
+
+## Overview
+
+The victim data has been organized and stored in a structured JSON format containing:
+
+- **Victim Name**: Name of the individual(s)
+- **Student Level**: College or High School
+- **Year**: Year of incident
+- **School Name**: Name of the institution
+- **State**: Location state
+- **Cause of Death**: Primary cause of death
+- **Related to Greek Org**: Whether the incident is related to Greek organizations
+- **Greek Organization Name**: Name of the Greek organization (if applicable)
+- **Incident Count**: Number of victims in the incident (for multi-victim incidents)
+
+## Data Structure
+
+The data is stored in the following file:
+
+- [`victims.json`](/data/victims.json) - Complete JSON dataset with all victim information
+
+## Data Summary
+
+The dataset includes incidents spanning from 1928 to 2026, covering:
+
+- College and High School students
+- Various causes of death including alcohol intoxication, falls, drowning, and other incidents
+- Greek organization-related and non-related incidents
+- Multiple victim incidents
+
+## Viewing the Data
+
+You can view the complete data by visiting the JSON data file:
+
+📄 **[victims.json](/data/victims.json)** - Complete victim dataset
+
+## Data Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| victim_name | string | Name of the victim(s) |
+| student_level | string | "College" or "High School" |
+| year | number | Year of incident (0 for unknown) |
+| school_name | string | Name of the school/university |
+| state | string | US State or territory |
+| cause_of_death | string | Cause of death description |
+| related_to_greek_org | boolean | Whether related to Greek organization |
+| greek_organization_name | string | Name of Greek organization (optional) |
+| incident_count | number | Number of victims (optional, defaults to 1) |
+| municipality | string | City/location (optional) |
+
+## Usage
+
+This data can be used for:
+
+- Research and analysis
+- Documentation purposes
+- Educational materials
+- Historical records of Greek life incidents
+
+> **Note**: This data is provided for informational and research purposes. Some entries may contain incomplete information due to limited available records.

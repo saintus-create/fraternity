@@ -51,6 +51,14 @@ navigation:
       - section: Changelog
         contents:
           - changelog: docs/changelog
+      - section: Victim Data
+        contents:
+          - page: Victim Data
+            path: docs/pages/victim-data.mdx
+            icon: fa-duotone fa-users
+          - page: Statistics
+            path: docs/pages/statistics.mdx
+            icon: fa-duotone fa-chart-bar
   - tab: API Reference
     layout:
       - section: Overview

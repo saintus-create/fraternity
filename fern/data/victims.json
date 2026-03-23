@@ -1,0 +1,2041 @@
+[
+  {
+    "victim_name": "Nolte McElroy",
+    "student_level": "College",
+    "year": 1928,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Electrocution",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Kappa Epsilon"
+  },
+  {
+    "victim_name": "Lloyd Aune",
+    "student_level": "College",
+    "year": 1931,
+    "school_name": "Stout Institute( Menomonie, Wisconsin)",
+    "state": "Wisconsin",
+    "cause_of_death": "Spinal injury",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Richard Beitzel",
+    "student_level": "College",
+    "year": 1935,
+    "school_name": "Dickinson College",
+    "state": "Pennsylvania",
+    "cause_of_death": "Sepsis",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Delta Theta"
+  },
+  {
+    "victim_name": "Taylor Lewis",
+    "student_level": "High School",
+    "year": 1936,
+    "school_name": "Unnamed high school Miami, Florida",
+    "state": "Florida",
+    "cause_of_death": "Struck on hip/spine with plank",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Hubert L. Spake, Jr.",
+    "student_level": "College",
+    "year": 1940,
+    "school_name": "University of Missouri",
+    "state": "Missouri",
+    "cause_of_death": "Suffocation",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Theta Nu Epsilon"
+  },
+  {
+    "victim_name": "Wayne Rogers",
+    "student_level": "High School",
+    "year": 1943,
+    "school_name": "Appleton High School",
+    "state": "Wisconsin",
+    "cause_of_death": "Convulsions after oil application",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Robert Perry",
+    "student_level": "College",
+    "year": 1945,
+    "school_name": "Saint Louis University",
+    "state": "Missouri",
+    "cause_of_death": "Immolation",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Beta Pi"
+  },
+  {
+    "victim_name": "Jack P. Jarosz",
+    "student_level": "College",
+    "year": 1945,
+    "school_name": "United States Navy",
+    "state": "Federal Military",
+    "cause_of_death": "Electrocution",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "LeRoy Robert Bragg",
+    "student_level": "College",
+    "year": 1946,
+    "school_name": "SS Frederick Galbraith",
+    "state": "Unknown",
+    "cause_of_death": "Saltpeter overdose",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "James Peterson",
+    "student_level": "College",
+    "year": 1948,
+    "school_name": "Montana State University",
+    "state": "Montana",
+    "cause_of_death": "Gunshot",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Dean Niswonger",
+    "student_level": "College",
+    "year": 1950,
+    "school_name": "Wittenberg College",
+    "state": "Ohio",
+    "cause_of_death": "Hit by a vehicle",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Tau Omega"
+  },
+  {
+    "victim_name": "Gerald Foletta",
+    "student_level": "College",
+    "year": 1950,
+    "school_name": "University of California, Berkeley",
+    "state": "California",
+    "cause_of_death": "Hit by a vehicle",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Pi"
+  },
+  {
+    "victim_name": "Allen Kaplan",
+    "student_level": "College",
+    "year": 1951,
+    "school_name": "Northwestern State College",
+    "state": "Illinois",
+    "cause_of_death": "Drowned/Prank gone wrong",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Fred Evens, Jr.",
+    "student_level": "College",
+    "year": 1951,
+    "school_name": "University of Miami",
+    "state": "Florida",
+    "cause_of_death": "Hit by a vehicle",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Lambda Chi Alpha"
+  },
+  {
+    "victim_name": "Calvin Dougherty",
+    "student_level": "College",
+    "year": 1953,
+    "school_name": "Milligan College",
+    "state": "Tennessee",
+    "cause_of_death": "Ruptured pancreas/spleen",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Thomas Clark",
+    "student_level": "College",
+    "year": 1956,
+    "school_name": "MIT",
+    "state": "Massachusetts",
+    "cause_of_death": "Drowned",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Kappa Epsilon"
+  },
+  {
+    "victim_name": "Max Caulk",
+    "student_level": "College",
+    "year": 1957,
+    "school_name": "Santa Barbara College",
+    "state": "California",
+    "cause_of_death": "Drowned",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Tau Delta"
+  },
+  {
+    "victim_name": "Henry Sherwood",
+    "student_level": "High School",
+    "year": 1959,
+    "school_name": "Yakima High School",
+    "state": "Washington",
+    "cause_of_death": "Drowned",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Richard Swanson",
+    "student_level": "College",
+    "year": 1959,
+    "school_name": "USC",
+    "state": "California",
+    "cause_of_death": "Choking",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Sigma"
+  },
+  {
+    "victim_name": "Michael Murphy",
+    "student_level": "High School",
+    "year": 1963,
+    "school_name": "Charleston High School",
+    "state": "Virginia",
+    "cause_of_death": "Trauma to stomach",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Lamonte R. Jenkins",
+    "student_level": "High School",
+    "year": 1966,
+    "school_name": "Roman Catholic High School",
+    "state": "Pennsylvania",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "John Clifton",
+    "student_level": "College",
+    "year": 1967,
+    "school_name": "Baylor University",
+    "state": "Unknown",
+    "cause_of_death": "Cardiac arrest",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Scott Graeler",
+    "student_level": "College",
+    "year": 1969,
+    "school_name": "Muskingum College",
+    "state": "Unknown",
+    "cause_of_death": "Heart failure",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Donna Bedinger",
+    "student_level": "College",
+    "year": 1970,
+    "school_name": "Eastern Illinois University",
+    "state": "Illinois",
+    "cause_of_death": "Head trauma",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Gamma Delta"
+  },
+  {
+    "victim_name": "Fred Bronner",
+    "student_level": "College",
+    "year": 1972,
+    "school_name": "Los Angeles Pierce College",
+    "state": "California",
+    "cause_of_death": "Fall from cliff",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Chi Chi Chi"
+  },
+  {
+    "victim_name": "Mitchell Fishkin",
+    "student_level": "College",
+    "year": 1973,
+    "school_name": "Lehigh University",
+    "state": "Pennsylvania",
+    "cause_of_death": "Jumped from vehicle",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Phi"
+  },
+  {
+    "victim_name": "William Flowers",
+    "student_level": "College",
+    "year": 1974,
+    "school_name": "Monmouth College",
+    "state": "New Jersey",
+    "cause_of_death": "Buried alive",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Zeta Beta Tau"
+  },
+  {
+    "victim_name": "Richard Gowins",
+    "student_level": "College",
+    "year": 1975,
+    "school_name": "Northern Illinois University",
+    "state": "Illinois",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "WINE Psi Phi"
+  },
+  {
+    "victim_name": "Theodore Ben",
+    "student_level": "College",
+    "year": 1975,
+    "school_name": "Cheyney University of PA",
+    "state": "Pennsylvania",
+    "cause_of_death": "Head trauma",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Samuel Mark Click",
+    "student_level": "College",
+    "year": 1976,
+    "school_name": "Texas Tech University",
+    "state": "Texas",
+    "cause_of_death": "Hit by a train",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Alpha"
+  },
+  {
+    "victim_name": "Dennis Rodenbeck",
+    "student_level": "College",
+    "year": 1976,
+    "school_name": "Iowa State University",
+    "state": "Iowa",
+    "cause_of_death": "Allergic reaction",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Gamma Delta"
+  },
+  {
+    "victim_name": "Thomas Fitzgerald",
+    "student_level": "College",
+    "year": 1976,
+    "school_name": "St. John's University",
+    "state": "New York",
+    "cause_of_death": "Chest wound",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Robert Brazile",
+    "student_level": "College",
+    "year": 1977,
+    "school_name": "University of Pennsylvania",
+    "state": "Pennsylvania",
+    "cause_of_death": "Heart attack",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Omega Psi Phi"
+  },
+  {
+    "victim_name": "Randall Crustals",
+    "student_level": "College",
+    "year": 1977,
+    "school_name": "University of Missouri, Rolla",
+    "state": "Missouri",
+    "cause_of_death": "Initiation accident",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Alpha Order"
+  },
+  {
+    "victim_name": "Nathaniel Swinson",
+    "student_level": "College",
+    "year": 1978,
+    "school_name": "NC Central University",
+    "state": "North Carolina",
+    "cause_of_death": "Exertion/Sickle cell",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Omega Psi Phi"
+  },
+  {
+    "victim_name": "Chuck Stenzel",
+    "student_level": "College",
+    "year": 1978,
+    "school_name": "Alfred University",
+    "state": "New York",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Klan Alpine"
+  },
+  {
+    "victim_name": "Bruce Wiseman",
+    "student_level": "College",
+    "year": 1979,
+    "school_name": "LSU",
+    "state": "Louisiana",
+    "cause_of_death": "Hit by a car",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Theta Xi"
+  },
+  {
+    "victim_name": "Norsha Lynn Delk",
+    "student_level": "College",
+    "year": 1979,
+    "school_name": "Virginia State University",
+    "state": "Virginia",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Beta Phi Burgundy"
+  },
+  {
+    "victim_name": "Benjamin Folsom Grantham III",
+    "student_level": "College",
+    "year": 1979,
+    "school_name": "University of Georgia",
+    "state": "Georgia",
+    "cause_of_death": "Auto accident",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Tau Omega"
+  },
+  {
+    "victim_name": "Steve Call",
+    "student_level": "College",
+    "year": 1980,
+    "school_name": "University of Lowell",
+    "state": "Massachusetts",
+    "cause_of_death": "Hyperthermia",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Kappa Phi"
+  },
+  {
+    "victim_name": "Lurie \"Barry\" Ballou",
+    "student_level": "College",
+    "year": 1980,
+    "school_name": "University of South Carolina",
+    "state": "South Carolina",
+    "cause_of_death": "Choking/Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Nu"
+  },
+  {
+    "victim_name": "Joseph Parella",
+    "student_level": "College",
+    "year": 1980,
+    "school_name": "Ithaca College",
+    "state": "New York",
+    "cause_of_death": "Heatstroke",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Kappa"
+  },
+  {
+    "victim_name": "Rick Cerra",
+    "student_level": "College",
+    "year": 1981,
+    "school_name": "Univ of Wisconsin–Superior",
+    "state": "Wisconsin",
+    "cause_of_death": "Collapsed/Calisthenics",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Victor Siegel",
+    "student_level": "College",
+    "year": 1982,
+    "school_name": "Towson State University",
+    "state": "Unknown",
+    "cause_of_death": "Traffic collision",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Omega Lambda"
+  },
+  {
+    "victim_name": "Vann Watts",
+    "student_level": "College",
+    "year": 1983,
+    "school_name": "Tennessee State University",
+    "state": "Tennessee",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Omega Psi Phi"
+  },
+  {
+    "victim_name": "Arnaldo Mercado Pérez",
+    "student_level": "College",
+    "year": 1984,
+    "school_name": "Univ of Puerto Rico",
+    "state": "Puerto Rico",
+    "cause_of_death": "Renal failure/Abuse",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Brad Bing",
+    "student_level": "College",
+    "year": 1984,
+    "school_name": "UC Davis",
+    "state": "California",
+    "cause_of_death": "Alcohol-related",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Alpha Order"
+  },
+  {
+    "victim_name": "James Lenaghan",
+    "student_level": "College",
+    "year": 1984,
+    "school_name": "American Int. College",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Zeta Chi"
+  },
+  {
+    "victim_name": "Bruce Ward Goodrich",
+    "student_level": "College",
+    "year": 1984,
+    "school_name": "Texas A&M University",
+    "state": "Texas",
+    "cause_of_death": "Heatstroke",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Jeffrey Franklin Long",
+    "student_level": "College",
+    "year": 1984,
+    "school_name": "Cal State Chico",
+    "state": "California",
+    "cause_of_death": "Hit by a car",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Tau Gamma Theta"
+  },
+  {
+    "victim_name": "Mark Seeberger",
+    "student_level": "College",
+    "year": 1986,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Kappa Psi"
+  },
+  {
+    "victim_name": "Michael J Dailey",
+    "student_level": "College",
+    "year": 1986,
+    "school_name": "Eastern Kentucky University",
+    "state": "Kentucky",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Epsilon"
+  },
+  {
+    "victim_name": "Harry (Skip) Cline Jr.",
+    "student_level": "College",
+    "year": 1987,
+    "school_name": "University of Mississippi",
+    "state": "Mississippi",
+    "cause_of_death": "Fall/Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Alpha Order"
+  },
+  {
+    "victim_name": "James Callahan",
+    "student_level": "College",
+    "year": 1988,
+    "school_name": "Rutgers University",
+    "state": "New Jersey",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Lambda Chi Alpha"
+  },
+  {
+    "victim_name": "Joel Harris",
+    "student_level": "College",
+    "year": 1989,
+    "school_name": "Morehouse College",
+    "state": "Unknown",
+    "cause_of_death": "Heart rhythm/Abuse",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Phi Alpha"
+  },
+  {
+    "victim_name": "Nick Haben",
+    "student_level": "College",
+    "year": 1990,
+    "school_name": "Western Illinois University",
+    "state": "Illinois",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Mike Nisbet",
+    "student_level": "College",
+    "year": 1991,
+    "school_name": "University of Missouri, Rolla",
+    "state": "Missouri",
+    "cause_of_death": "Choking/Alcohol",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Gregory R. Batipps",
+    "student_level": "College",
+    "year": 1992,
+    "school_name": "University of Virginia",
+    "state": "Virginia",
+    "cause_of_death": "Traffic collision",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Phi Alpha"
+  },
+  {
+    "victim_name": "J.B. Joynt",
+    "student_level": "College",
+    "year": 1992,
+    "school_name": "Frostburg State University",
+    "state": "Unknown",
+    "cause_of_death": "Rough-housing",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Sigma Kappa"
+  },
+  {
+    "victim_name": "Chad Saucier",
+    "student_level": "College",
+    "year": 1993,
+    "school_name": "Auburn University",
+    "state": "Alabama",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Delta Theta"
+  },
+  {
+    "victim_name": "Leslie Ware",
+    "student_level": "College",
+    "year": 1993,
+    "school_name": "Alcorn State University",
+    "state": "Unknown",
+    "cause_of_death": "Shot to death",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Phi Omega"
+  },
+  {
+    "victim_name": "Terry Linn",
+    "student_level": "College",
+    "year": 1994,
+    "school_name": "Bloomsburg University",
+    "state": "Pennsylvania",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Chi"
+  },
+  {
+    "victim_name": "Michael Davis",
+    "student_level": "College",
+    "year": 1994,
+    "school_name": "Southeast Missouri State",
+    "state": "Missouri",
+    "cause_of_death": "Polytrauma",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Alpha Psi"
+  },
+  {
+    "victim_name": "Binaya Oja",
+    "student_level": "College",
+    "year": 1997,
+    "school_name": "Clarkson University",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Theta Chi"
+  },
+  {
+    "victim_name": "Scott Krueger",
+    "student_level": "College",
+    "year": 1997,
+    "school_name": "MIT",
+    "state": "Massachusetts",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Gamma Delta"
+  },
+  {
+    "victim_name": "Jack Ivey",
+    "student_level": "College",
+    "year": 1998,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Kappa Sigma"
+  },
+  {
+    "victim_name": "Kevin Lawless",
+    "student_level": "College",
+    "year": 1999,
+    "school_name": "Iona College",
+    "state": "New York",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Tau Omega"
+  },
+  {
+    "victim_name": "Stephen Petz",
+    "student_level": "College",
+    "year": 1999,
+    "school_name": "Ferris State University",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Adrian Heideman",
+    "student_level": "College",
+    "year": 2000,
+    "school_name": "Cal State Chico",
+    "state": "California",
+    "cause_of_death": "Choking/Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Phi"
+  },
+  {
+    "victim_name": "Joseph T. Green",
+    "student_level": "College",
+    "year": 2001,
+    "school_name": "Tennessee State University",
+    "state": "Tennessee",
+    "cause_of_death": "Asthma attack/Exercise",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Omega Psi Phi"
+  },
+  {
+    "victim_name": "Chad Meredith",
+    "student_level": "College",
+    "year": 2001,
+    "school_name": "University of Miami",
+    "state": "Florida",
+    "cause_of_death": "Drowning/Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Sigma"
+  },
+  {
+    "victim_name": "Benjamin Klein",
+    "student_level": "College",
+    "year": 2002,
+    "school_name": "Alfred University",
+    "state": "New York",
+    "cause_of_death": "Apparent suicide",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Zeta Beta Tau"
+  },
+  {
+    "victim_name": "Daniel Reardon",
+    "student_level": "College",
+    "year": 2002,
+    "school_name": "University of Maryland",
+    "state": "Maryland",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Sigma Kappa"
+  },
+  {
+    "victim_name": "Kristin High",
+    "student_level": "College",
+    "year": 2002,
+    "school_name": "Cal State Los Angeles",
+    "state": "California",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Kappa Alpha"
+  },
+  {
+    "victim_name": "Albert Santos",
+    "student_level": "College",
+    "year": 2002,
+    "school_name": "University of Nevada, Reno",
+    "state": "Nevada",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Alpha"
+  },
+  {
+    "victim_name": "Walter Dean Jennings",
+    "student_level": "College",
+    "year": 2003,
+    "school_name": "SUNY Plattsburgh",
+    "state": "New York",
+    "cause_of_death": "Water intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Psi Epsilon Chi"
+  },
+  {
+    "victim_name": "Kelly Nester",
+    "student_level": "College",
+    "year": 2003,
+    "school_name": "Plymouth State University",
+    "state": "Unknown",
+    "cause_of_death": "Traffic collision",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Kappa Omega"
+  },
+  {
+    "victim_name": "Gordie Bailey",
+    "student_level": "College",
+    "year": 2004,
+    "school_name": "University of Colorado",
+    "state": "Colorado",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Chi Psi"
+  },
+  {
+    "victim_name": "Steven David Judd",
+    "student_level": "College",
+    "year": 2004,
+    "school_name": "New Mexico State",
+    "state": "New Mexico",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Chi"
+  },
+  {
+    "victim_name": "Shawn Davis",
+    "student_level": "College",
+    "year": 2003,
+    "school_name": "Republic Energy",
+    "state": "Unknown",
+    "cause_of_death": "Polytrauma",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "William James",
+    "student_level": "College",
+    "year": 2004,
+    "school_name": "Freemasons",
+    "state": "Unknown",
+    "cause_of_death": "Shot to death",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Matthew Carrington",
+    "student_level": "College",
+    "year": 2005,
+    "school_name": "Cal State Chico",
+    "state": "California",
+    "cause_of_death": "Water intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Chi Tau"
+  },
+  {
+    "victim_name": "Kenny Luong",
+    "student_level": "College",
+    "year": 2005,
+    "school_name": "UC Irvine",
+    "state": "California",
+    "cause_of_death": "Intense exercise",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Lambda Phi Epsilon"
+  },
+  {
+    "victim_name": "Phanta \"Jack\" Phoummarath",
+    "student_level": "College",
+    "year": 2005,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Lambda Phi Epsilon"
+  },
+  {
+    "victim_name": "Danny Ray Daniels",
+    "student_level": "College",
+    "year": 2006,
+    "school_name": "Cal State Fresno",
+    "state": "California",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Gamma Delta"
+  },
+  {
+    "victim_name": "Tyler Cross",
+    "student_level": "College",
+    "year": 2006,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Fall/Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Epsilon"
+  },
+  {
+    "victim_name": "Gary DeVercelly",
+    "student_level": "College",
+    "year": 2007,
+    "school_name": "Rider University",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Kappa Tau"
+  },
+  {
+    "victim_name": "Brett Griffin",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "University of Delaware",
+    "state": "Delaware",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Mu"
+  },
+  {
+    "victim_name": "Johnny D. Smith",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "Wabash College",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Tau Delta"
+  },
+  {
+    "victim_name": "Harrison Kowiak",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "Lenoir–Rhyne University",
+    "state": "Unknown",
+    "cause_of_death": "Head injury",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Theta Chi"
+  },
+  {
+    "victim_name": "Michael Starks",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "Utah State University",
+    "state": "Utah",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Nu"
+  },
+  {
+    "victim_name": "Carson Starkey",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "Cal Poly San Luis Obispo",
+    "state": "California",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Epsilon"
+  },
+  {
+    "victim_name": "Arman Partamian",
+    "student_level": "College",
+    "year": 2009,
+    "school_name": "SUNY Geneseo",
+    "state": "New York",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pigs (local)"
+  },
+  {
+    "victim_name": "Donnie Wade",
+    "student_level": "College",
+    "year": 2009,
+    "school_name": "Prairie View A&M",
+    "state": "Unknown",
+    "cause_of_death": "Acute exertional rhabdomyolysis",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Beta Sigma"
+  },
+  {
+    "victim_name": "Samuel Mason",
+    "student_level": "College",
+    "year": 2010,
+    "school_name": "Radford University",
+    "state": "Virginia",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Tau Kappa Epsilon"
+  },
+  {
+    "victim_name": "Victoria Carter",
+    "student_level": "College",
+    "year": 2010,
+    "school_name": "East Carolina University",
+    "state": "North Carolina",
+    "cause_of_death": "Traffic collision/Fatigue",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Sigma Theta"
+  },
+  {
+    "victim_name": "George Desdunes",
+    "student_level": "College",
+    "year": 2011,
+    "school_name": "Cornell University",
+    "state": "New York",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Epsilon"
+  },
+  {
+    "victim_name": "David Bogenberger",
+    "student_level": "College",
+    "year": 2012,
+    "school_name": "Northern Illinois University",
+    "state": "Illinois",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Alpha"
+  },
+  {
+    "victim_name": "Robert Champion",
+    "student_level": "College",
+    "year": 2011,
+    "school_name": "Florida A&M University",
+    "state": "Florida",
+    "cause_of_death": "Blunt force trauma",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Marching Band"
+  },
+  {
+    "victim_name": "William Torrance",
+    "student_level": "College",
+    "year": 2012,
+    "school_name": "Vincennes University",
+    "state": "Indiana",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Gamma Iota"
+  },
+  {
+    "victim_name": "Philip Dhanens",
+    "student_level": "College",
+    "year": 2012,
+    "school_name": "Cal State Fresno",
+    "state": "California",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Theta Chi"
+  },
+  {
+    "victim_name": "Robert Tipton",
+    "student_level": "College",
+    "year": 2012,
+    "school_name": "High Point University",
+    "state": "North Carolina",
+    "cause_of_death": "Oxymorphone overdose",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Sigma Phi"
+  },
+  {
+    "victim_name": "Marvell Edmondson",
+    "student_level": "College",
+    "year": 2013,
+    "school_name": "Virginia State University",
+    "state": "Virginia",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Peter Tran",
+    "student_level": "College",
+    "year": 2013,
+    "school_name": "San Francisco State",
+    "state": "California",
+    "cause_of_death": "Alcohol poisoning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Lambda Phi Epsilon"
+  },
+  {
+    "victim_name": "Chun \"Michael\" Deng",
+    "student_level": "College",
+    "year": 2013,
+    "school_name": "Baruch College",
+    "state": "New York",
+    "cause_of_death": "Head injury",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Delta Psi"
+  },
+  {
+    "victim_name": "Armando Villa",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "Cal State Northridge",
+    "state": "California",
+    "cause_of_death": "Heat stroke",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Phi"
+  },
+  {
+    "victim_name": "Tucker Hipps",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "Clemson University",
+    "state": "South Carolina",
+    "cause_of_death": "Head injuries/Fall",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Phi Epsilon"
+  },
+  {
+    "victim_name": "Nolan Burch",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "West Virginia University",
+    "state": "Virginia",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Sigma"
+  },
+  {
+    "victim_name": "Trevor Duffy",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "University at Albany",
+    "state": "New York",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Zeta Beta Tau"
+  },
+  {
+    "victim_name": "Raheel Siddiqui",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "Marine Corps Parris Island",
+    "state": "Federal Military",
+    "cause_of_death": "Fall/Suicide",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Michael Walker",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "Sigma Alpha Kappa",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Ryan Abele",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Nevada, Reno",
+    "state": "Nevada",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Nu"
+  },
+  {
+    "victim_name": "Tim Piazza",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "Penn State",
+    "state": "Pennsylvania",
+    "cause_of_death": "Head injury/Fall",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Beta Theta Pi"
+  },
+  {
+    "victim_name": "Harrison Carter Cole",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "Hampden–Sydney College",
+    "state": "Virginia",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Chi Sigma"
+  },
+  {
+    "victim_name": "Maxwell Gruver",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "LSU",
+    "state": "Louisiana",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Delta Theta"
+  },
+  {
+    "victim_name": "Andrew Coffey",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "Florida State University",
+    "state": "Florida",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Phi"
+  },
+  {
+    "victim_name": "Matthew Ellis",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "Texas State University",
+    "state": "Texas",
+    "cause_of_death": "Alcohol poisoning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Kappa Psi"
+  },
+  {
+    "victim_name": "Tyler Hilliard",
+    "student_level": "College",
+    "year": 2018,
+    "school_name": "UC Riverside",
+    "state": "California",
+    "cause_of_death": "Congenital artery anomalies",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Phi Alpha"
+  },
+  {
+    "victim_name": "Collin Wiant",
+    "student_level": "College",
+    "year": 2018,
+    "school_name": "Ohio University",
+    "state": "Ohio",
+    "cause_of_death": "Asphyxia",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Pi"
+  },
+  {
+    "victim_name": "Noah Domingo",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "UC Irvine",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Alpha Epsilon"
+  },
+  {
+    "victim_name": "Bea Castro",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "Cal State Fullerton",
+    "state": "California",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Chi Sigma Phi"
+  },
+  {
+    "victim_name": "Sebastian Serafin-Bazan",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "University at Buffalo",
+    "state": "New York",
+    "cause_of_death": "Cardiac arrest",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Pi"
+  },
+  {
+    "victim_name": "Antonio Tsialas",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "Cornell University",
+    "state": "New York",
+    "cause_of_death": "Polytrauma/Fall",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Kappa Psi"
+  },
+  {
+    "victim_name": "Dylan Hernandez",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "San Diego State",
+    "state": "California",
+    "cause_of_death": "Head injury",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Gamma Delta"
+  },
+  {
+    "victim_name": "Sam Martinez",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "Washington State University",
+    "state": "Washington",
+    "cause_of_death": "Acute alcohol poisoning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Tau Omega"
+  },
+  {
+    "victim_name": "Gracie LeAnn Dimit",
+    "student_level": "College",
+    "year": 2020,
+    "school_name": "Emory and Henry University",
+    "state": "Unknown",
+    "cause_of_death": "Traffic collision",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Phi Alpha"
+  },
+  {
+    "victim_name": "James Gilfedder III",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "Lyon College",
+    "state": "Unknown",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Adam Oakes",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "Virginia Commonwealth",
+    "state": "Virginia",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Delta Chi"
+  },
+  {
+    "victim_name": "Stone Foltz",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "Bowling Green State",
+    "state": "Ohio",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Alpha"
+  },
+  {
+    "victim_name": "Lofton Hazelwood",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "University of Kentucky",
+    "state": "Kentucky",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Phat Nguyen",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "Michigan State University",
+    "state": "Michigan",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Alpha Phi"
+  },
+  {
+    "victim_name": "Josh Mardis",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "James Madison University",
+    "state": "Wisconsin",
+    "cause_of_death": "Traffic collision",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Beta Chi"
+  },
+  {
+    "victim_name": "Caleb Wilson",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Southern University",
+    "state": "Unknown",
+    "cause_of_death": "Seizure caused by a blow to the chest",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Omega Psi Phi"
+  },
+  {
+    "victim_name": "Won Jang",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Dartmouth College",
+    "state": "New Hampshire",
+    "cause_of_death": "Drowning / Alcohol",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Beta Alpha Omega"
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "College",
+    "year": 2020,
+    "school_name": "Stanford University",
+    "state": "California",
+    "cause_of_death": "Overdose",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "College",
+    "year": 2010,
+    "school_name": "University of Idaho",
+    "state": "Idaho",
+    "cause_of_death": "Unknown / Found deceased",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "College",
+    "year": 2009,
+    "school_name": "University of Wisconsin-Milwaukee",
+    "state": "Wisconsin",
+    "cause_of_death": "Overdose",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "College",
+    "year": 0,
+    "school_name": "Cornell University",
+    "state": "New York",
+    "cause_of_death": "Fall",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Kappa Alpha Society"
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "College",
+    "year": 0,
+    "school_name": "University of Maryland, Baltimore",
+    "state": "Maryland",
+    "cause_of_death": "Congestion of lungs",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Phi Psi Chi"
+  },
+  {
+    "victim_name": "Unidentified Student",
+    "student_level": "High School",
+    "year": 0,
+    "school_name": "Hilliard High School",
+    "state": "Ohio",
+    "cause_of_death": "Beaten to death",
+    "related_to_greek_org": false
+  },
+  {
+    "victim_name": "Aiden Nevarez",
+    "student_level": "College",
+    "year": 2022,
+    "school_name": "Arizona State University",
+    "state": "Arizona",
+    "cause_of_death": "Fall from balcony (Cabo Spring Break)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Sean Gormley",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "Loyola University Maryland",
+    "state": "Maryland",
+    "cause_of_death": "Fall from balcony",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Peyton Hall",
+    "student_level": "College",
+    "year": 2022,
+    "school_name": "Utah Tech University",
+    "state": "Utah",
+    "cause_of_death": "Fall from balcony",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Aaron Miller",
+    "student_level": "College",
+    "year": 2008,
+    "school_name": "Miami University",
+    "state": "Ohio",
+    "cause_of_death": "Fall from bunk bed",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Melinda Marie Somers",
+    "student_level": "College",
+    "year": 1997,
+    "school_name": "Virginia Tech",
+    "state": "Virginia",
+    "cause_of_death": "Accidental Fall / Unknown",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Samuel Sleder",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Nebraska-Lincoln",
+    "state": "Nebraska",
+    "cause_of_death": "Freak accident / Fall at fraternity",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Sky Russell",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "University of Nevada, Reno",
+    "state": "Nevada",
+    "cause_of_death": "Found deceased / Cause Unknown",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Jason Wren",
+    "student_level": "College",
+    "year": 2009,
+    "school_name": "University of Kansas",
+    "state": "Kansas",
+    "cause_of_death": "Alcohol intoxication",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Brett Jensen",
+    "student_level": "College",
+    "year": 2002,
+    "school_name": "University of Washington",
+    "state": "Washington",
+    "cause_of_death": "Fall from window",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Andrea Norton",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "Briar Cliff University",
+    "state": "South Dakota",
+    "cause_of_death": "Fall from cliff",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Alasdair Russell",
+    "student_level": "College",
+    "year": 2019,
+    "school_name": "University of Southern California",
+    "state": "California",
+    "cause_of_death": "Suicide after alleged hazing",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Caleb Forness",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Idaho",
+    "state": "Idaho",
+    "cause_of_death": "Found deceased / Unknown",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Jack Lipp",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Missouri",
+    "state": "Missouri",
+    "cause_of_death": "Fall from balcony (Defective railing)",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Ethan Ackerman",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "North Greenville University",
+    "state": "South Carolina",
+    "cause_of_death": "Freak accident (Fallen tree)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Naomi McClendon",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "Arizona State University",
+    "state": "Arizona",
+    "cause_of_death": "Fall from balcony",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Wade Steffey",
+    "student_level": "College",
+    "year": 2007,
+    "school_name": "Purdue University",
+    "state": "Indiana",
+    "cause_of_death": "Electrocution (High voltage room)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "William James Long",
+    "student_level": "College",
+    "year": 1994,
+    "school_name": "University of Oklahoma",
+    "state": "Oklahoma",
+    "cause_of_death": "Flagpole incident / Fall",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Nic Gidley",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "Montana State University",
+    "state": "Montana",
+    "cause_of_death": "Accidental Fall",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Gabriella Smith",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "University of Kentucky",
+    "state": "Kentucky",
+    "cause_of_death": "Hiking accident / Fall",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Cody Ray Surprise",
+    "student_level": "College",
+    "year": 2022,
+    "school_name": "University of Vermont",
+    "state": "Vermont",
+    "cause_of_death": "Drowning / Accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Lucas Mattson",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "University of Michigan",
+    "state": "Michigan",
+    "cause_of_death": "Fall from balcony",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Luke Jernigan",
+    "student_level": "College",
+    "year": 2020,
+    "school_name": "University of Tennessee",
+    "state": "Tennessee",
+    "cause_of_death": "Fall off bluff",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Abel Mejia",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Indiana Bible College",
+    "state": "Alaska",
+    "cause_of_death": "Fall in Grand Canyon",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Willem Golden",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Delaware",
+    "state": "Delaware",
+    "cause_of_death": "Fall from roof",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Landon Yost",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "University of Oregon",
+    "state": "Oregon",
+    "cause_of_death": "Fall at fraternity",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Vasilije Stojsavljevic",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "University of Illinois",
+    "state": "Illinois",
+    "cause_of_death": "Fall from balcony",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Samuel Frost",
+    "student_level": "College",
+    "year": 2016,
+    "school_name": "University of Colorado Boulder",
+    "state": "Colorado",
+    "cause_of_death": "Accidental death",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Austin Retterath",
+    "student_level": "College",
+    "year": 2022,
+    "school_name": "University of Minnesota",
+    "state": "Minnesota",
+    "cause_of_death": "Found in river / Drowning",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Vincenzo Lirosi",
+    "student_level": "College",
+    "year": 2021,
+    "school_name": "University of New Hampshire",
+    "state": "New Hampshire",
+    "cause_of_death": "Freak accident / Fall / Exposure",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "McCrae Williams",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "Lafayette College",
+    "state": "Pennsylvania",
+    "cause_of_death": "Head injury / Fall",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Daniel Skeehan",
+    "student_level": "College",
+    "year": 2011,
+    "school_name": "NJIT",
+    "state": "New Jersey",
+    "cause_of_death": "Fall from roof",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Jeffny Pally",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "University of Connecticut",
+    "state": "Connecticut",
+    "cause_of_death": "Run over by vehicle / Freak accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "William 'Will' McAnally",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "University of Arkansas",
+    "state": "Arkansas",
+    "cause_of_death": "Fall / Accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Thomas Higgins",
+    "student_level": "College",
+    "year": 2014,
+    "school_name": "University of Maine",
+    "state": "Maine",
+    "cause_of_death": "Freak accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Samuel Bull",
+    "student_level": "College",
+    "year": 2022,
+    "school_name": "UMass Amherst",
+    "state": "Massachusetts",
+    "cause_of_death": "Fall from roof",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "David Rusko",
+    "student_level": "College",
+    "year": 2018,
+    "school_name": "West Virginia University",
+    "state": "West Virginia",
+    "cause_of_death": "Fall at fraternity house",
+    "related_to_greek_org": true,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Cole Whaley",
+    "student_level": "College",
+    "year": 2017,
+    "school_name": "University of Southern Mississippi",
+    "state": "Mississippi",
+    "cause_of_death": "Fall from hotel window",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Kappa Alpha",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Megan Elisabeth Giles",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Alabama",
+    "state": "Alabama",
+    "municipality": "Tuscaloosa",
+    "cause_of_death": "Fatal pedestrian-vehicle accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Katya Rosaura Castillo Mendoza, Sophia Akimi Troetel, Josiah Patrick Santos",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Arizona",
+    "state": "Arizona",
+    "cause_of_death": "Hit-and-run vehicle-pedestrian collision",
+    "related_to_greek_org": false,
+    "incident_count": 3
+  },
+  {
+    "victim_name": "Elizabeth Hamel",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "UC Santa Barbara",
+    "state": "California",
+    "cause_of_death": "Balcony fall",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Pi Beta Phi",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "George Mauricio Salinas",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "UC Berkeley",
+    "state": "California",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Delta Phi",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Kaylee Xiong",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Sacramento State",
+    "state": "California",
+    "municipality": "Sacramento",
+    "cause_of_death": "Vehicle-scooter collision",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Simon Daniel",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Cal State Fullerton",
+    "state": "California",
+    "cause_of_death": "Drowning",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Pi",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Soren Dixon, Jack Nelson, Krysta Tsukahara",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Multiple (USC, Univ of Colorado, Savannah College)",
+    "state": "California",
+    "municipality": "Piedmont",
+    "cause_of_death": "Fatal vehicle crash (Tesla Cybertruck)",
+    "related_to_greek_org": false,
+    "incident_count": 3
+  },
+  {
+    "victim_name": "Four unnamed seniors",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "Pepperdine University",
+    "state": "California",
+    "municipality": "Malibu",
+    "cause_of_death": "Fatal vehicle collision (pedestrian)",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Alpha Phi",
+    "incident_count": 4
+  },
+  {
+    "victim_name": "Ryan James, Nicholas Chew",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "UCLA",
+    "state": "California",
+    "cause_of_death": "Multiple deaths (death investigation and suicide)",
+    "related_to_greek_org": false,
+    "incident_count": 2
+  },
+  {
+    "victim_name": "Unnamed student",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Reedley College",
+    "state": "California",
+    "cause_of_death": "Medical emergency/Student death",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Dallas Roberts",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Colorado Mesa University",
+    "state": "Colorado",
+    "cause_of_death": "Missing person found dead following vehicle accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Nyla Holland",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Florida",
+    "state": "Florida",
+    "cause_of_death": "Fatal traffic accident (moped vs. car collision)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "George Whittenburg",
+    "student_level": "College",
+    "year": 2026,
+    "school_name": "University of Georgia",
+    "state": "Georgia",
+    "cause_of_death": "Fatal vehicle accident (single-vehicle crash)",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Sigma Phi Epsilon",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Akul B. Dhawan",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "University of Illinois",
+    "state": "Illinois",
+    "cause_of_death": "Student death investigation",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Elsa McGrain",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Kansas",
+    "state": "Kansas",
+    "cause_of_death": "Fatal hit-and-run",
+    "related_to_greek_org": true,
+    "greek_organization_name": "Chi Omega",
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Dillon Reidenauer, Bohdi Linton",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Louisiana State University",
+    "state": "Louisiana",
+    "cause_of_death": "Fatal vehicle collision involving car and motorcycle",
+    "related_to_greek_org": false,
+    "incident_count": 2
+  },
+  {
+    "victim_name": "Lucas Mattson",
+    "student_level": "College",
+    "year": 2026,
+    "school_name": "University of Michigan",
+    "state": "Michigan",
+    "cause_of_death": "Extreme cold conditions",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Jennifer Kasunick",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Hope College",
+    "state": "Michigan",
+    "cause_of_death": "Fatal train-pedestrian accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Andrew 'Drew' Bjork",
+    "student_level": "College",
+    "year": 2026,
+    "school_name": "College of St. Scholastica",
+    "state": "Minnesota",
+    "cause_of_death": "Fatal multi-car vehicle crash",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Demartravion 'Trey' Reed",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Delta State University",
+    "state": "Mississippi",
+    "cause_of_death": "Student death (hanging/suicide)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Riley Strain",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "University of Missouri",
+    "state": "Missouri",
+    "cause_of_death": "Disappearance and accidental death",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Luke Reimer, Mary Mich",
+    "student_level": "College",
+    "year": 2026,
+    "school_name": "Franciscan University of Steubenville",
+    "state": "Ohio",
+    "cause_of_death": "Accidental vehicle exhaust or engine malfunction",
+    "related_to_greek_org": false,
+    "incident_count": 2
+  },
+  {
+    "victim_name": "Elizabeth Cardenas Figueroa",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Oregon",
+    "state": "Oregon",
+    "cause_of_death": "Fatal vehicle-bicycle collision",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Lovisa Arnesson-Cronhamre",
+    "student_level": "College",
+    "year": 2023,
+    "school_name": "Penn State University",
+    "state": "Pennsylvania",
+    "cause_of_death": "Fatal vehicular crash/homicide",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Unnamed person",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Texas at Austin",
+    "state": "Texas",
+    "cause_of_death": "Fatal electric scooter accident",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Jade McKissic",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "University of Houston",
+    "state": "Texas",
+    "cause_of_death": "Student death (found in bayou)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Lia Smith",
+    "student_level": "College",
+    "year": 2025,
+    "school_name": "Middlebury College",
+    "state": "Vermont",
+    "cause_of_death": "Student death (Suicide)",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Eliotte Heinz",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "Viterbo University",
+    "state": "Wisconsin",
+    "cause_of_death": "Accidental drowning",
+    "related_to_greek_org": false,
+    "incident_count": 1
+  },
+  {
+    "victim_name": "Three members",
+    "student_level": "College",
+    "year": 2024,
+    "school_name": "University of Wyoming",
+    "state": "Wyoming",
+    "cause_of_death": "Fatal single-vehicle car accident",
+    "related_to_greek_org": false,
+    "incident_count": 3
+  }
+]
