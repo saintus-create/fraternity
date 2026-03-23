@@ -126,6 +126,12 @@ navigation:
     layout:
       - section: Research Reports
         contents:
+          - page: Hazing Mortality Research
+            path: docs/pages/hazing-mortality-research.mdx
+            icon: fa-duotone fa-file-lines
+          - page: Obfuscated & Misattributed Deaths
+            path: docs/pages/obfuscated-cases.mdx
+            icon: fa-duotone fa-mask
           - page: Drug Enforcement Actions
             path: docs/pages/drug-enforcement.mdx
             icon: fa-duotone fa-pills
