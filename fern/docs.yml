@@ -13,14 +13,14 @@ ai-search:
     - docs
 ai-examples:
   enabled: false
-title: fraternity | Documentation
+title: Fraternity Incident Database | Documentation
 layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
 tabs:
   home:
-    display-name: Docs
+    display-name: Database
     icon: home
   API Reference:
     display-name: API Reference
@@ -28,30 +28,12 @@ tabs:
 navigation:
   - tab: home
     layout:
-      - section: Get started
+      - section: Overview
         contents:
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: fa-duotone fa-house
-          - page: Edit your docs
-            path: docs/pages/editing-your-docs.mdx
-            icon: fa-duotone fa-pen-to-square
-          - page: Write content
-            path: docs/pages/writing-content.mdx
-            icon: fa-duotone fa-file-lines
-          - page: Set up navigation
-            path: docs/pages/navigation.mdx
-            icon: fa-duotone fa-sitemap
-          - page: Customize your docs
-            path: docs/pages/customization.mdx
-            icon: fa-duotone fa-palette
-          - page: Support
-            path: docs/pages/support.mdx
-            icon: fa-duotone fa-headset
-      - section: Changelog
-        contents:
-          - changelog: docs/changelog
-      - section: Victim Data
+      - section: Data
         contents:
           - page: Victim Data
             path: docs/pages/victim-data.mdx
@@ -59,6 +41,14 @@ navigation:
           - page: Statistics
             path: docs/pages/statistics.mdx
             icon: fa-duotone fa-chart-bar
+      - section: Resources
+        contents:
+          - page: Support
+            path: docs/pages/support.mdx
+            icon: fa-duotone fa-headset
+      - section: Changelog
+        contents:
+          - changelog: docs/changelog
   - tab: API Reference
     layout:
       - section: Overview
@@ -72,13 +62,13 @@ navigation:
         api-name: example-openapi
 navbar-links:
   - type: minimal
-    text: Fork this repo
-    url: https://github.com/fern-api/docs-starter
+    text: GitHub
+    url: https://github.com/fern-support/fraternity
   - type: filled
     text: Dashboard
     url: https://dashboard.buildwithfern.com
   - type: github
-    value: https://github.com/fern-api/fern
+    value: https://github.com/fern-support/fraternity
 colors:
   accent-primary:
     dark: "#ffffff"
@@ -93,5 +83,5 @@ logo:
   dark: docs/assets/logo.svg
   light: docs/assets/logo.svg
   height: 20
-  href: https://buildwithfern.com
+  href: https://fraternity.docs.buildwithfern.com
 favicon: docs/assets/favicon.svg
