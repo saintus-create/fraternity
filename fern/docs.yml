@@ -22,9 +22,21 @@ tabs:
   home:
     display-name: Database
     icon: home
-  API Reference:
-    display-name: API Reference
-    icon: puzzle
+  timeline:
+    display-name: Timeline
+    icon: clock
+  causes:
+    display-name: By Cause
+    icon: skull-crossbones
+  orgs:
+    display-name: Organizations
+    icon: building-columns
+  geography:
+    display-name: Geography
+    icon: map
+  research:
+    display-name: Research
+    icon: book
 navigation:
   - tab: home
     layout:
@@ -33,14 +45,12 @@ navigation:
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: fa-duotone fa-house
-      - section: Data
-        contents:
-          - page: Victim Data
-            path: docs/pages/victim-data.mdx
-            icon: fa-duotone fa-users
           - page: Statistics
             path: docs/pages/statistics.mdx
             icon: fa-duotone fa-chart-bar
+          - page: Full Dataset
+            path: docs/pages/victim-data.mdx
+            icon: fa-duotone fa-database
       - section: Resources
         contents:
           - page: Support
@@ -49,17 +59,77 @@ navigation:
       - section: Changelog
         contents:
           - changelog: docs/changelog
-  - tab: API Reference
+
+  - tab: timeline
     layout:
-      - section: Overview
+      - section: Timeline
         contents:
-          - page: API reference
-            path: docs/pages/api-reference-overview.mdx
-            icon: fa-duotone fa-book
-      - api: Plant Store AsyncAPI
-        api-name: example-asyncapi
-      - api: Swagger Plant Store - OpenAPI 3.1
-        api-name: example-openapi
+          - page: Early Years (1873–1969)
+            path: docs/pages/timeline-early.mdx
+            icon: fa-duotone fa-hourglass-start
+          - page: 1970s & 1980s
+            path: docs/pages/timeline-70s80s.mdx
+            icon: fa-duotone fa-hourglass-half
+          - page: 1990s & 2000s
+            path: docs/pages/timeline-90s00s.mdx
+            icon: fa-duotone fa-hourglass-end
+          - page: 2010–2019
+            path: docs/pages/timeline-10s.mdx
+            icon: fa-duotone fa-calendar
+          - page: 2020–Present
+            path: docs/pages/timeline-20s.mdx
+            icon: fa-duotone fa-calendar-check
+          - page: Unknown Year
+            path: docs/pages/timeline-unknown.mdx
+            icon: fa-duotone fa-question
+
+  - tab: causes
+    layout:
+      - section: By Cause of Death
+        contents:
+          - page: Alcohol-Related
+            path: docs/pages/cause-alcohol.mdx
+            icon: fa-duotone fa-wine-glass
+          - page: Falls
+            path: docs/pages/cause-falls.mdx
+            icon: fa-duotone fa-person-falling
+          - page: Vehicle & Traffic
+            path: docs/pages/cause-vehicle.mdx
+            icon: fa-duotone fa-car-burst
+          - page: Drowning
+            path: docs/pages/cause-drowning.mdx
+            icon: fa-duotone fa-water
+          - page: Physical Trauma & Abuse
+            path: docs/pages/cause-physical.mdx
+            icon: fa-duotone fa-hand-fist
+          - page: Other Causes
+            path: docs/pages/cause-other.mdx
+            icon: fa-duotone fa-circle-exclamation
+
+  - tab: orgs
+    layout:
+      - section: Greek Organizations
+        contents:
+          - page: All Organizations
+            path: docs/pages/by-organization.mdx
+            icon: fa-duotone fa-building-columns
+
+  - tab: geography
+    layout:
+      - section: Geographic Data
+        contents:
+          - page: By State
+            path: docs/pages/by-state.mdx
+            icon: fa-duotone fa-map-location-dot
+
+  - tab: research
+    layout:
+      - section: Research Reports
+        contents:
+          - page: Drug Enforcement Actions
+            path: docs/pages/drug-enforcement.mdx
+            icon: fa-duotone fa-pills
+
 navbar-links:
   - type: minimal
     text: GitHub
@@ -72,7 +142,7 @@ navbar-links:
 colors:
   accent-primary:
     dark: "#ffffff"
-    light: "#ffffff"
+    light: "#000000"
   background:
     dark: "#111113"
     light: "#FFFFFF"

@@ -6,7 +6,7 @@ slug: welcome
 
 # Fraternity & Sorority Incident Database
 
-A comprehensive, open-source database documenting hazing-related and student organization fatalities across American educational institutions from **1928 to present**.
+A comprehensive, open-source database documenting hazing-related and student organization fatalities across American educational institutions from **1873 to present**.
 
 <Callout intent="warn">
   This database contains sensitive information about student deaths. It is maintained for research, education, and advocacy purposes.
@@ -15,42 +15,84 @@ A comprehensive, open-source database documenting hazing-related and student org
 ## At a Glance
 
 <CardGroup cols={3}>
-  <Card title="150+ Incidents" icon="duotone chart-line">
-    Documented cases spanning nearly a century of data
+  <Card title="294 Incidents" icon="duotone chart-line">
+    306 total victims documented across nearly 150 years
   </Card>
-  <Card title="98 Years" icon="duotone calendar">
-    Records from 1928 through 2026
+  <Card title="83 Greek Orgs" icon="duotone users">
+    72% of incidents are linked to a Greek organization
   </Card>
-  <Card title="40+ States" icon="duotone map">
-    Incidents across the United States and territories
+  <Card title="50+ States" icon="duotone map">
+    Incidents documented across the United States and territories
   </Card>
 </CardGroup>
-
-## Key Findings
-
-- **Alcohol intoxication** is the leading cause of death, especially since the 1970s
-- Over **60%** of documented incidents are related to Greek organizations
-- **California, Texas, New York, and Pennsylvania** have the highest number of incidents
-- Incidents have **accelerated significantly** since the late 1990s
 
 ## Explore the Data
 
 <CardGroup cols={2}>
   <Card
-    title="Victim Data"
-    icon="duotone users"
-    href="/victim-data"
+    title="Browse by Timeline"
+    icon="duotone clock"
+    href="/timeline/early"
   >
-    Browse the complete dataset of documented incidents including victim names, schools, and causes of death
+    Explore incidents chronologically, from the earliest documented case in 1873 through the present day
   </Card>
+  <Card
+    title="Browse by Cause"
+    icon="duotone skull-crossbones"
+    href="/causes/alcohol"
+  >
+    Analyze patterns by cause of death — alcohol, falls, vehicle accidents, drowning, and more
+  </Card>
+  <Card
+    title="Browse by Organization"
+    icon="duotone building-columns"
+    href="/organizations"
+  >
+    See which fraternities and sororities are most frequently associated with documented incidents
+  </Card>
+  <Card
+    title="Browse by State"
+    icon="duotone map-location-dot"
+    href="/states"
+  >
+    Geographic breakdown showing where incidents are concentrated across the U.S.
+  </Card>
+</CardGroup>
+
+<CardGroup cols={2}>
   <Card
     title="Statistics"
     icon="duotone chart-bar"
     href="/statistics"
   >
-    View statistical breakdowns by decade, state, cause of death, and Greek organization involvement
+    Quantitative analysis with decade trends, cause breakdowns, and organization rankings
+  </Card>
+  <Card
+    title="Full Dataset"
+    icon="duotone database"
+    href="/full-dataset"
+  >
+    Complete searchable table of all 294 documented incidents
   </Card>
 </CardGroup>
+
+## Key Findings
+
+<Accordion title="Alcohol is the #1 identifiable cause of death">
+Alcohol-related deaths account for approximately 25% of all documented incidents, with the rate increasing sharply since the 1970s. Nearly all alcohol-related deaths are connected to Greek organization events.
+</Accordion>
+
+<Accordion title="Falls are a major and underreported cause">
+Falls from roofs, balconies, windows, and gorges account for approximately 29% of all incidents. Many occur at fraternity house structures or during events where alcohol is involved.
+</Accordion>
+
+<Accordion title="Incidents are accelerating, not declining">
+The 2010s saw 77 documented incidents — more than any prior decade. The 2020s are on pace to match or exceed that number, with 61 incidents already recorded mid-decade.
+</Accordion>
+
+<Accordion title="Over 72% of incidents involve Greek organizations">
+213 of 294 documented incidents are directly linked to fraternity or sorority activities, pledging, hazing, or events.
+</Accordion>
 
 ## About This Project
 
@@ -60,9 +102,5 @@ This database was created to:
 - **Inform** policy discussions around fraternity and sorority reform
 - **Support** researchers studying Greek life safety and institutional accountability
 - **Honor** the memory of those lost to preventable incidents
-
-## Data Sources
-
-The data is compiled from public records, news reports, court documents, and academic research. Some entries may contain incomplete information due to historical record limitations.
 
 > All data is provided for informational and research purposes only.
