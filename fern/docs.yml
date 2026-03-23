@@ -19,50 +19,45 @@ layout:
   page-width: full
   tabs-placement: header
 tabs:
-  home:
+  database:
     display-name: Database
-    icon: home
-  timeline:
-    display-name: Timeline
-    icon: clock
-  causes:
-    display-name: By Cause
-    icon: skull-crossbones
-  orgs:
-    display-name: Organizations
-    icon: building-columns
-  geography:
-    display-name: Geography
-    icon: map
+    icon: database
+  explore:
+    display-name: Explore Breakdowns
+    icon: chart-pie
   research:
-    display-name: Research
+    display-name: Research & Reports
     icon: book
 navigation:
-  - tab: home
+  - tab: database
     layout:
       - section: Overview
         contents:
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: fa-duotone fa-house
-          - page: Statistics
+          - page: Master Directory
+            path: docs/pages/master-directory.mdx
+            icon: fa-duotone fa-address-book
+          - page: Aggregate Statistics
             path: docs/pages/statistics.mdx
             icon: fa-duotone fa-chart-bar
-          - page: Full Dataset
-            path: docs/pages/victim-data.mdx
-            icon: fa-duotone fa-database
-      - section: Resources
+      - section: Complete Records
         contents:
-          - page: Support
+          - page: Full Incident Dataset
+            path: docs/pages/victim-data.mdx
+            icon: fa-duotone fa-table
+      - section: Informational
+        contents:
+          - page: Support Resources
             path: docs/pages/support.mdx
             icon: fa-duotone fa-headset
-      - section: Changelog
-        contents:
           - changelog: docs/changelog
 
-  - tab: timeline
+  - tab: explore
     layout:
-      - section: Timeline
+      - section: Timeline Breakdown
+        icon: clock
         contents:
           - page: Early Years (1873–1969)
             path: docs/pages/timeline-early.mdx
@@ -82,10 +77,8 @@ navigation:
           - page: Unknown Year
             path: docs/pages/timeline-unknown.mdx
             icon: fa-duotone fa-question
-
-  - tab: causes
-    layout:
       - section: By Cause of Death
+        icon: skull-crossbones
         contents:
           - page: Alcohol-Related
             path: docs/pages/cause-alcohol.mdx
@@ -105,26 +98,19 @@ navigation:
           - page: Other Causes
             path: docs/pages/cause-other.mdx
             icon: fa-duotone fa-circle-exclamation
-
-  - tab: orgs
-    layout:
-      - section: Greek Organizations
+      - section: Organization & Geography
+        icon: building-columns
         contents:
-          - page: All Organizations
+          - page: Greek Organizations
             path: docs/pages/by-organization.mdx
             icon: fa-duotone fa-building-columns
-
-  - tab: geography
-    layout:
-      - section: Geographic Data
-        contents:
-          - page: By State
+          - page: Geographic Distribution
             path: docs/pages/by-state.mdx
             icon: fa-duotone fa-map-location-dot
 
   - tab: research
     layout:
-      - section: Research Reports
+      - section: Analytical Reports
         contents:
           - page: Hazing Mortality Research
             path: docs/pages/hazing-mortality-research.mdx

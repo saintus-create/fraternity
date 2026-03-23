@@ -5,7 +5,9 @@ description: "Comprehensive research on fraternity hazing deaths spanning 1950�
 
 # Fraternity Hazing Mortality Research Report
 
-Aggregated data on fraternity-related deaths and hazing incidents from published datasets, news reports, legal documents, and institutional records. This research spans **1950 to 2025**, documenting over **300 hazing-related deaths** in the United States.
+<Callout intent="info" title="Executive Summary">
+This comprehensive research report aggregates data on fraternity-related deaths and hazing incidents collected from multiple sources, including published datasets, news reports, legal documents, and institutional records. The research spans **1950 to 2025**, documenting over **300 hazing-related deaths** in the United States and providing detailed analysis of patterns, trends, and contributing factors.
+</Callout>
 
 ---
 
@@ -20,8 +22,9 @@ Aggregated data on fraternity-related deaths and hazing incidents from published
 
 ---
 
-## Data Sources
+## Data Sources & Methodology
 
+<AccordionGroup>
 <Accordion title="Primary Data Sources">
 
 - **U.S. Hazing Deaths Dataset** — ~500+ hazing deaths spanning 1737–2022, with 396 records extracted and 314 high-quality records filtered for 1950–2025
@@ -30,6 +33,19 @@ Aggregated data on fraternity-related deaths and hazing incidents from published
 - **Pi Kappa Phi Chapter Analysis** — 116 chapter profiles with lifecycle data
 
 </Accordion>
+
+<Accordion title="Research Limitations & Methodology">
+
+**Data Collection Period**
+- **Historical Dataset**: 1950–2025 (314 documented cases)
+- **Modern Dataset**: 2004–2023 (21 detailed cases)
+- **Chapter Analysis**: 1904–2025 (116 chapters tracked)
+
+**Limitations**
+Potential data quality issues include duplicates in historical formats. The research team implemented cross-referencing and deduplication logic during data processing to minimize duplicate entries while maximizing comprehensive coverage.
+
+</Accordion>
+</AccordionGroup>
 
 ---
 
@@ -347,11 +363,53 @@ Signed into law December 23, 2024, creating new requirements:
 
 ---
 
+## Geographic Analysis
+
+### States with Most Incidents (Modern Cases)
+
+| State | Cases |
+|-------|------:|
+| California | 4 |
+| Louisiana | 2 |
+| New York | 2 |
+| Ohio | 2 |
+| Pennsylvania | 1 |
+| South Carolina | 1 |
+| West Virginia | 1 |
+| Texas | 1 |
+| Nevada | 1 |
+| Colorado | 1 |
+| New Jersey | 1 |
+| Florida | 1 |
+| Missouri | 1 |
+
+### Universities with Multiple Incidents
+
+- **Louisiana State University** — 2
+- **UC Berkeley** — 2
+- **Penn State University** — 1
+- **Cornell University** — 1
+- **Cal State Northridge** — 1
+
+---
+
 ## Seasonal & Temporal Patterns
 
 - **Fall semester** (August–November) — Peak period during new member recruitment
 - **Spring semester** (January–April) — Secondary peak during initiation activities
 - **2014 and 2017** — Identified as cluster years with multiple high-profile deaths
+
+---
+
+## Key Findings & Conclusions
+
+<Callout intent="warning" title="Summary of Findings">
+- **314+ documented deaths** from hazing (1950–2025)
+- **81% of modern cases** confirmed as hazing-related and **50% of deaths** caused by alcohol poisoning
+- High-risk organizations like **Pi Kappa Phi** exhibit structural recurrence (4 deaths, 50% recharter rate)
+- States like **California and Louisiana** represent high-incident hubs
+- **Legal Reforms** and **Increased Media Attention** are creating more visibility on systemic hazing
+</Callout>
 
 ---
 
@@ -384,6 +442,50 @@ Signed into law December 23, 2024, creating new requirements:
 4. Report suspicious activities immediately
 
 </Accordion>
+
+---
+
+## Data Limitations & Future Research
+
+<Accordion title="Areas for Further Research">
+
+1. Long-term psychological impacts on witnesses
+2. Effectiveness of various prevention programs
+3. Comparison with international Greek organizations
+4. Economic costs of hazing incidents
+5. Analysis of organizational culture changes post-incident
+
+</Accordion>
+
+---
+
+## Appendices
+
+<AccordionGroup>
+<Accordion title="Appendix A: Data Files and Sources">
+
+**Primary Data Files**
+1. `/data/new_victims.json` - 21 detailed modern cases
+2. `/data/historical_victims_1950_onwards.json` - 314 filtered historical cases
+3. `/data/pi_kappa_phi_chapters.json` - 116 chapter profiles
+
+**Source Documents**
+1. "U.S. Hazing Deaths-Grid view.pdf" - 63-page historical dataset
+2. "Blunt Force Trauma.pdf" - Additional death cases
+3. News reports and legal documents
+
+</Accordion>
+
+<Accordion title="Appendix B: Glossary">
+
+- **Hazing**: Any intentional, knowing, or reckless act causing physical or psychological harm
+- **Rechartering**: Process of re-establishing a fraternity chapter after closure
+- **Charter revocation**: Permanent removal of organizational charter
+- **Clery Act**: Federal law requiring campus crime reporting
+- **Campus Hazing Transparency Report (CHTR)**: New required disclosure under 2024 law
+
+</Accordion>
+</AccordionGroup>
 
 ---
 
