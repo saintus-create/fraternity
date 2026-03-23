@@ -35,23 +35,23 @@ navigation:
         contents:
           - page: Welcome
             path: docs/pages/welcome.mdx
-            icon: fa-duotone fa-house
+            icon: house
           - page: Master Directory
             path: docs/pages/master-directory.mdx
-            icon: fa-duotone fa-address-book
+            icon: address-book
           - page: Aggregate Statistics
             path: docs/pages/statistics.mdx
-            icon: fa-duotone fa-chart-bar
+            icon: bar-chart-3
       - section: Complete Records
         contents:
           - page: Full Incident Dataset
             path: docs/pages/victim-data.mdx
-            icon: fa-duotone fa-table
+            icon: table
       - section: Informational
         contents:
           - page: Support Resources
             path: docs/pages/support.mdx
-            icon: fa-duotone fa-headset
+            icon: headset
           - changelog: docs/changelog
 
   - tab: explore
@@ -61,52 +61,52 @@ navigation:
         contents:
           - page: Early Years (1873–1969)
             path: docs/pages/timeline-early.mdx
-            icon: fa-duotone fa-hourglass-start
+            icon: hourglass
           - page: 1970s & 1980s
             path: docs/pages/timeline-70s80s.mdx
-            icon: fa-duotone fa-hourglass-half
+            icon: hourglass
           - page: 1990s & 2000s
             path: docs/pages/timeline-90s00s.mdx
-            icon: fa-duotone fa-hourglass-end
+            icon: hourglass
           - page: 2010–2019
             path: docs/pages/timeline-10s.mdx
-            icon: fa-duotone fa-calendar
+            icon: calendar
           - page: 2020–Present
             path: docs/pages/timeline-20s.mdx
-            icon: fa-duotone fa-calendar-check
+            icon: calendar-check
           - page: Unknown Year
             path: docs/pages/timeline-unknown.mdx
-            icon: fa-duotone fa-question
+            icon: help-circle
       - section: By Cause of Death
-        icon: skull-crossbones
+        icon: skull
         contents:
           - page: Alcohol-Related
             path: docs/pages/cause-alcohol.mdx
-            icon: fa-duotone fa-wine-glass
+            icon: wine
           - page: Falls
             path: docs/pages/cause-falls.mdx
-            icon: fa-duotone fa-person-falling
+            icon: person-falling
           - page: Vehicle & Traffic
             path: docs/pages/cause-vehicle.mdx
-            icon: fa-duotone fa-car-burst
+            icon: car
           - page: Drowning
             path: docs/pages/cause-drowning.mdx
-            icon: fa-duotone fa-water
+            icon: waves
           - page: Physical Trauma & Abuse
             path: docs/pages/cause-physical.mdx
-            icon: fa-duotone fa-hand-fist
+            icon: hand
           - page: Other Causes
             path: docs/pages/cause-other.mdx
-            icon: fa-duotone fa-circle-exclamation
+            icon: circle-exclamation
       - section: Organization & Geography
-        icon: building-columns
+        icon: building-2
         contents:
           - page: Greek Organizations
             path: docs/pages/by-organization.mdx
-            icon: fa-duotone fa-building-columns
+            icon: building-2
           - page: Geographic Distribution
             path: docs/pages/by-state.mdx
-            icon: fa-duotone fa-map-location-dot
+            icon: map-pin
 
   - tab: research
     layout:
@@ -114,13 +114,13 @@ navigation:
         contents:
           - page: Hazing Mortality Research
             path: docs/pages/hazing-mortality-research.mdx
-            icon: fa-duotone fa-file-lines
+            icon: file-text
           - page: Obfuscated & Misattributed Deaths
             path: docs/pages/obfuscated-cases.mdx
-            icon: fa-duotone fa-mask
+            icon: mask
           - page: Drug Enforcement Actions
             path: docs/pages/drug-enforcement.mdx
-            icon: fa-duotone fa-pills
+            icon: pill
 
 navbar-links:
   - type: minimal
