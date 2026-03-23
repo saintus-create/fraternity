@@ -73,7 +73,7 @@ navigation:
             icon: docs/assets/lucide/calendar.svg
           - page: 2020–Present
             path: docs/pages/timeline-20s.mdx
-            icon: docs/assets/lucide/calendar.svg-check
+            icon: docs/assets/lucide/calendar-check.svg
           - page: Unknown Year
             path: docs/pages/timeline-unknown.mdx
             icon: docs/assets/lucide/help-circle.svg
@@ -120,11 +120,11 @@ navigation:
             icon: docs/assets/lucide/search.svg
           - page: Pi Kappa Phi Analysis
             path: docs/pages/pi-kappa-phi.mdx
-            icon: docs/assets/lucide/bar-chart-2.svg
+            icon: docs/assets/lucide/chart-bar.svg
           - page: Findings & Recommendations
             path: docs/pages/hazing-conclusions.mdx
-            icon: docs/assets/lucide/check-circle.svg
-            
+            icon: docs/assets/lucide/circle-check.svg
+
       - section: Cover-ups & Obfuscation
         contents:
           - page: Obfuscation Patterns
@@ -136,7 +136,7 @@ navigation:
           - page: Legal Trends & Findings
             path: docs/pages/obfuscation-legal.mdx
             icon: docs/assets/lucide/scale.svg
-            
+
       - section: Drug Enforcement Actions
         contents:
           - page: Major Operations
@@ -157,11 +157,11 @@ navbar-links:
     value: https://github.com/fern-support/fraternity
 colors:
   accent-primary:
-    dark: "#ffffff"
-    light: "#000000"
+    dark: "#c2c2cc"
+    light: "#2c2c35"
   background:
-    dark: "#111113"
-    light: "#FFFFFF"
+    dark: "#1a1a1e"
+    light: "#f5f5f4"
 theme:
   page-actions: toolbar
   footer-nav: minimal
