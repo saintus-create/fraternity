@@ -18,16 +18,14 @@ layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
+css: docs/assets/custom.css
 tabs:
   database:
     display-name: Database
     icon: docs/assets/lucide/database.svg
   explore:
-    display-name: Segmented Analytics
+    display-name: Analytics
     icon: docs/assets/lucide/pie-chart.svg
-  research:
-    display-name: Research & Reports
-    icon: docs/assets/lucide/book.svg
 navigation:
   - tab: database
     layout:
@@ -47,6 +45,22 @@ navigation:
           - page: Full Incident Dataset
             path: docs/pages/victim-data.mdx
             icon: docs/assets/lucide/table.svg
+      - section: Analytical Context
+        contents:
+          - page: Methodology & Data Sources
+            path: docs/pages/hazing-overview.mdx
+            icon: docs/assets/lucide/file-text.svg
+          - page: Statistical Conclusions
+            path: docs/pages/hazing-conclusions.mdx
+            icon: docs/assets/lucide/circle-check.svg
+      - section: Enforcement Records
+        contents:
+          - page: Drug Operations
+            path: docs/pages/drugs-operations.mdx
+            icon: docs/assets/lucide/pill.svg
+          - page: Enforcement Statistics
+            path: docs/pages/drugs-statistics.mdx
+            icon: docs/assets/lucide/trending-up.svg
       - section: Informational
         contents:
           - page: Support Resources
@@ -107,25 +121,15 @@ navigation:
           - page: Geographic Distribution
             path: docs/pages/by-state.mdx
             icon: docs/assets/lucide/map-pin.svg
-
-  - tab: research
-    layout:
-      - section: Hazing Mortality Research
+      - section: Case Studies
         contents:
-          - page: Overview & Methodology
-            path: docs/pages/hazing-overview.mdx
-            icon: docs/assets/lucide/file-text.svg
-          - page: Modern Case Studies
+          - page: Modern Cases (2004–2023)
             path: docs/pages/modern-cases.mdx
             icon: docs/assets/lucide/search.svg
           - page: Pi Kappa Phi Analysis
             path: docs/pages/pi-kappa-phi.mdx
             icon: docs/assets/lucide/chart-bar.svg
-          - page: Findings & Recommendations
-            path: docs/pages/hazing-conclusions.mdx
-            icon: docs/assets/lucide/circle-check.svg
-
-      - section: Cover-ups & Obfuscation
+      - section: Institutional Patterns
         contents:
           - page: Obfuscation Patterns
             path: docs/pages/obfuscation-patterns.mdx
@@ -133,26 +137,14 @@ navigation:
           - page: Major Case Studies
             path: docs/pages/obfuscation-case-studies.mdx
             icon: docs/assets/lucide/gavel.svg
-          - page: Legal Trends & Findings
+          - page: Legal Trends & Data
             path: docs/pages/obfuscation-legal.mdx
             icon: docs/assets/lucide/scale.svg
-
-      - section: Drug Enforcement Actions
-        contents:
-          - page: Major Operations
-            path: docs/pages/drugs-operations.mdx
-            icon: docs/assets/lucide/pill.svg
-          - page: Seizures & Statistics
-            path: docs/pages/drugs-statistics.mdx
-            icon: docs/assets/lucide/trending-up.svg
 
 navbar-links:
   - type: minimal
     text: GitHub
     url: https://github.com/fern-support/fraternity
-  - type: filled
-    text: Dashboard
-    url: https://dashboard.buildwithfern.com
   - type: github
     value: https://github.com/fern-support/fraternity
 colors:

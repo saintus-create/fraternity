@@ -1,0 +1,179 @@
+/* =====================================================
+   FRATERNITY INCIDENT DATABASE — CUSTOM STYLES
+   ===================================================== */
+
+/* Smooth font rendering globally */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── 1. Remove Fern marketing ─────────────────────── */
+#builtwithfern {
+  display: none !important;
+}
+
+/* ── 2. Glass header & tab bar ────────────────────── */
+.fern-header,
+.fern-header-tabs {
+  backdrop-filter: blur(18px) saturate(1.3) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.3) !important;
+}
+
+:is(.dark) .fern-header,
+:is(.dark) .fern-header-tabs {
+  background-color: rgba(26, 26, 30, 0.72) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+:is(:not(.dark)) .fern-header,
+:is(:not(.dark)) .fern-header-tabs {
+  background-color: rgba(245, 245, 244, 0.82) !important;
+  border-bottom-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ── 3. Remove blurry sidebar shadow → crisp border ─ */
+.fern-sidebar-container,
+.fern-sidebar,
+[class*="fern-sidebar"] {
+  box-shadow: none !important;
+}
+
+:is(.dark) .fern-sidebar-container,
+:is(.dark) .fern-sidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.07) !important;
+}
+
+:is(:not(.dark)) .fern-sidebar-container,
+:is(:not(.dark)) .fern-sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ── 4. Glass cards ───────────────────────────────── */
+.fern-card,
+a.fern-card,
+[class*="fern-card"] {
+  backdrop-filter: blur(14px) saturate(1.2) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(1.2) !important;
+  box-shadow: none !important;
+  transition: border-color 0.18s ease, background-color 0.18s ease !important;
+}
+
+:is(.dark) .fern-card,
+:is(.dark) a.fern-card,
+:is(.dark) [class*="fern-card"] {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.09) !important;
+}
+
+:is(:not(.dark)) .fern-card,
+:is(:not(.dark)) a.fern-card,
+:is(:not(.dark)) [class*="fern-card"] {
+  background-color: rgba(0, 0, 0, 0.025) !important;
+  border-color: rgba(0, 0, 0, 0.09) !important;
+}
+
+:is(.dark) .fern-card:hover,
+:is(.dark) a.fern-card:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(194, 194, 204, 0.28) !important;
+}
+
+:is(:not(.dark)) .fern-card:hover,
+:is(:not(.dark)) a.fern-card:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  border-color: rgba(44, 44, 53, 0.25) !important;
+}
+
+/* ── 5. Uniform card height within card groups ────── */
+.fern-card-group {
+  display: grid !important;
+  grid-auto-rows: 1fr !important;
+  align-items: stretch !important;
+}
+
+.fern-card-group > .fern-card,
+.fern-card-group > a.fern-card {
+  height: 100% !important;
+  min-height: 96px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* ── 6. Colored callouts / alerts ─────────────────── */
+
+/* Info — indigo */
+.fern-callout[data-intent="info"],
+[data-intent="info"].fern-callout,
+[class*="callout"][data-intent="info"] {
+  background-color: rgba(99, 102, 241, 0.10) !important;
+  border-color: rgba(99, 102, 241, 0.32) !important;
+}
+
+/* Warning — amber */
+.fern-callout[data-intent="warning"],
+[data-intent="warning"].fern-callout,
+[class*="callout"][data-intent="warning"] {
+  background-color: rgba(245, 158, 11, 0.10) !important;
+  border-color: rgba(245, 158, 11, 0.32) !important;
+}
+
+/* Error — rose */
+.fern-callout[data-intent="error"],
+[data-intent="error"].fern-callout,
+[class*="callout"][data-intent="error"] {
+  background-color: rgba(244, 63, 94, 0.10) !important;
+  border-color: rgba(244, 63, 94, 0.32) !important;
+}
+
+/* Success / Note — emerald */
+.fern-callout[data-intent="success"],
+[data-intent="success"].fern-callout,
+.fern-callout[data-intent="note"],
+[data-intent="note"].fern-callout,
+[class*="callout"][data-intent="success"],
+[class*="callout"][data-intent="note"] {
+  background-color: rgba(16, 185, 129, 0.10) !important;
+  border-color: rgba(16, 185, 129, 0.32) !important;
+}
+
+/* ── 7. Breadcrumb accent tint ────────────────────── */
+.fern-breadcrumb,
+[class*="breadcrumb"] {
+  color: var(--accent-a10) !important;
+}
+
+.fern-breadcrumb a,
+[class*="breadcrumb"] a {
+  color: var(--accent-a11) !important;
+  text-decoration: none !important;
+}
+
+.fern-breadcrumb a:hover,
+[class*="breadcrumb"] a:hover {
+  color: var(--accent-a12) !important;
+}
+
+/* ── 8. Table styling ─────────────────────────────── */
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+}
+
+thead th {
+  background-color: rgba(99, 102, 241, 0.08) !important;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.2) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.01em !important;
+}
+
+tbody tr:hover td {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* ── 9. Restore focus ring (don't kill accessibility) */
+:focus-visible {
+  outline: 2px solid rgba(194, 194, 204, 0.6) !important;
+  outline-offset: 2px !important;
+}
