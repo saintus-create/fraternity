@@ -7,9 +7,19 @@ description: Complete database of fraternity and sorority related incident fatal
 
 Complete database of **294 documented incidents** involving **306 victims**. Data is sorted chronologically.
 
-<Callout intent="info">
-  Use your browser's search (Ctrl/Cmd + F) to find specific names, schools, or organizations.
+<Callout intent="warning" title="Sensitive content">
+  This table lists the names and circumstances of death of real students and young people. It is published for research, education, and advocacy purposes. Please treat the individuals listed here with respect.
 </Callout>
+
+<Badge intent="error">294 incidents</Badge> <Badge intent="warning">306 victims</Badge> <Badge intent="info">1873 – 2026</Badge> <Badge intent="note">Sorted chronologically</Badge>
+
+<Tip>
+  Use your browser's search (Ctrl/Cmd + F) to find specific names, schools, or organizations. The full table is kept on a single page so that search covers every record.
+</Tip>
+
+**Cause-of-death categories** — each row's cause is classified into one of six categories. Browse the category pages for grouped views:
+
+<Badge intent="error">[Alcohol](/cause-alcohol)</Badge> <Badge intent="error">[Falls](/cause-falls)</Badge> <Badge intent="warning">[Vehicle & Traffic](/cause-vehicle)</Badge> <Badge intent="warning">[Drowning](/cause-drowning)</Badge> <Badge intent="warning">[Physical Trauma](/cause-physical)</Badge> <Badge intent="note">[Other](/cause-other)</Badge>
 
 ---
 
@@ -316,6 +326,8 @@ Complete database of **294 documented incidents** involving **306 victims**. Dat
 
 ## Data Fields
 
+<Accordion title="Field definitions">
+
 | Field | Type | Description |
 |-------|------|-------------|
 | victim_name | string | Name of the victim(s) |
@@ -329,10 +341,14 @@ Complete database of **294 documented incidents** involving **306 victims**. Dat
 | incident_count | number | Number of victims (optional, defaults to 1) |
 | municipality | string | City/location (optional) |
 
+</Accordion>
+
 ## Raw Data
 
 The complete dataset is available as JSON:
 
 📄 **[victims.json](/data/victims.json)** — Full dataset for download or API integration
 
-> **Note**: This data is provided for informational and research purposes. Some entries may contain incomplete information due to limited available records.
+<Note>
+  This data is provided for informational and research purposes. Some entries may contain incomplete information due to limited available records.
+</Note>
