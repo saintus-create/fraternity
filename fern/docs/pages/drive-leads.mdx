@@ -1,8 +1,8 @@
 # Private-Source Recent Leads
 
-This page contains **recall-first leads imported from private Drive datasets** covering 2016–2026. It is intentionally separate from the Full Incident Dataset: rows here have not been independently reviewed, verified, or merged with other rows.
+This page contains **recall-first leads imported from private Drive datasets**. It is intentionally separate from the Full Incident Dataset: rows here have not been independently reviewed, verified, or merged with other rows.
 
-The current import contains **177 source rows representing 172 distinct normalized names**. Duplicate rows, alternate spellings, incomplete names, and conflicting source-dataset entries remain visible in the machine-readable data so that later reconciliation does not erase potentially meaningful differences.
+The current import contains **3,584 source rows**: **1,635 rows with a recorded name** and **1,949 rows represented as `Unknown person` because the source did not provide a safely usable individual name**. Duplicate rows, alternate spellings, incomplete names, and conflicting source-dataset entries remain visible in the machine-readable data so that later reconciliation does not erase potentially meaningful differences.
 
 > Inclusion on this page is not a conclusion that a fatality occurred, that the person was a postsecondary student, or that a social organization was involved. It records a lead requiring review.
 
@@ -14,8 +14,11 @@ The underlying CSV files and raw source URLs remain private. The public export i
 
 | Field | Meaning |
 |---|---|
-| `victim_name_as_recorded` | Name exactly as recorded in the private dataset. |
-| `year` | Incident year as recorded or extracted from the source row. |
+| `victim_name_as_recorded` | Name exactly as recorded in the private dataset, or `Unknown person` when no safely usable individual name was present. |
+| `name_status` | `recorded_name` or `unnamed_source_row`; this is not an identity judgment. |
+| `source_row_number` | Original row number within the private source CSV. |
+| `year_as_recorded` | Year/date value exactly as preserved from the source row. |
+| `year_parsed` | Optional machine-parsed year; blank when the source value could not be safely parsed. |
 | `state_as_recorded` | State value as recorded, including blanks or unusual values. |
 | `school_as_recorded` | Institution value as recorded. |
 | `organization_as_recorded` | Organization value as recorded, when present. |
@@ -29,4 +32,4 @@ The machine-readable file is [drive-recent-leads.json](/data/drive-recent-leads.
 
 ## Review path
 
-A lead can later be reviewed against the private source ledger and public reporting. If it becomes suitable for the structured victim dataset, the original lead row should remain here, with the promoted record receiving its own review and provenance fields. Similar names must not be merged automatically.
+A lead can later be reviewed against the private source ledger and public reporting. If it becomes suitable for the structured victim dataset, the original lead row should remain here, with the promoted record receiving its own review and provenance fields. The same name must not be merged automatically when school, year, organization, role, outcome, or cause differs; a possible deceased/living-member name swap is retained as a conflict for review.
