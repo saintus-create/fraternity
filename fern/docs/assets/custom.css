@@ -1,146 +1,100 @@
-/* =====================================================
-   FRATERNITY INCIDENT DATABASE — CUSTOM STYLES
-   ===================================================== */
+/* ── Switzer font via Bunny Fonts ── */
+@import url('https://fonts.bunny.net/css?family=switzer:300,400,500,600,700,800&display=swap');
 
-/* Smooth font rendering globally */
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ── Apply Switzer everywhere ── */
+body,
+.fern-page-heading,
+.fern-sidebar,
+.fern-header,
+.fern-toc,
+p, li, td, th, label, button, input {
+  font-family: 'Switzer', sans-serif !important;
 }
 
-/* ── 1. Remove Fern marketing ─────────────────────── */
-#builtwithfern {
-  display: none !important;
+body, p, li {
+  font-size: 1.05rem;
+  font-weight: 400;
 }
 
-/* ── 2. Sidebar — crisp border, no blurry shadow ──── */
-.fern-sidebar-container,
-.fern-sidebar {
-  box-shadow: none !important;
+h1, h2, h3, h4, h5, h6,
+.fern-page-heading h1,
+.fern-page-heading h2 {
+  font-family: 'Switzer', sans-serif !important;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
-:is(.dark) .fern-sidebar-container {
-  border-right: 1px solid rgba(255, 255, 255, 0.07) !important;
+/* ── Bold modern heading sizes ── */
+h1 { font-size: 3.25rem; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; }
+h2 { font-size: 2.2rem; font-weight: 500; line-height: 1.2; letter-spacing: -0.015em; }
+h3 { font-size: 1.6rem; font-weight: 500; line-height: 1.3; letter-spacing: -0.01em; }
+h4, h5, h6 { font-weight: 500; }
+
+/* ── Accent color overrides for slate blue ── */
+:root {
+  --accent: #3b5bdb;
+  --accent-primary: #3b5bdb;
 }
 
-:is(:not(.dark)) .fern-sidebar-container {
-  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+/* ── Hero-style welcome page: large centered search feel ── */
+/* Push the first page heading down and center it for a landing-page feel */
+.fern-page-heading {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }
 
-/* ── 3. Glass cards ───────────────────────────────── */
-.fern-card,
-a.fern-card {
-  backdrop-filter: blur(14px) saturate(1.2) !important;
-  -webkit-backdrop-filter: blur(14px) saturate(1.2) !important;
-  box-shadow: none !important;
-  transition: border-color 0.18s ease, background-color 0.18s ease !important;
+/* Center the search bar visually when it appears in the header */
+.fern-search-bar {
+  max-width: 560px;
+  margin: 0 auto;
 }
 
-:is(.dark) .fern-card,
-:is(.dark) a.fern-card {
-  background-color: rgba(255, 255, 255, 0.04) !important;
-  border-color: rgba(255, 255, 255, 0.09) !important;
+/* ── Card enhancements ── */
+.fern-card {
+  border-radius: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.fern-card.interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(59, 91, 219, 0.18);
 }
 
-:is(:not(.dark)) .fern-card,
-:is(:not(.dark)) a.fern-card {
-  background-color: rgba(0, 0, 0, 0.025) !important;
-  border-color: rgba(0, 0, 0, 0.09) !important;
+/* ── Tab bubble style polish ── */
+.fern-tab-button {
+  font-family: 'Switzer', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-:is(.dark) .fern-card:hover,
-:is(.dark) a.fern-card:hover {
-  background-color: rgba(255, 255, 255, 0.08) !important;
-  border-color: rgba(194, 194, 204, 0.28) !important;
+/* ── Callout polish ── */
+.fern-callout {
+  border-radius: 10px;
+  font-family: 'Switzer', sans-serif !important;
 }
 
-:is(:not(.dark)) .fern-card:hover,
-:is(:not(.dark)) a.fern-card:hover {
-  background-color: rgba(0, 0, 0, 0.05) !important;
-  border-color: rgba(44, 44, 53, 0.25) !important;
+/* ── Badge polish ── */
+.fern-badge {
+  font-family: 'Switzer', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
-/* ── 4. Uniform card height within card groups ────── */
-.fern-card-group {
-  display: grid !important;
-  grid-auto-rows: 1fr !important;
-  align-items: stretch !important;
+/* ── Sidebar nav ── */
+.fern-sidebar-nav-item {
+  font-family: 'Switzer', sans-serif !important;
+  font-weight: 500;
 }
 
-.fern-card-group > .fern-card,
-.fern-card-group > a.fern-card {
-  height: 100% !important;
-  min-height: 96px !important;
-  display: flex !important;
-  flex-direction: column !important;
+/* ── Code blocks: keep monospace ── */
+code, pre, .fern-code-block {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace !important;
 }
 
-/* ── 5. Colored callouts / alerts ─────────────────── */
+/* ── Smooth scrolling ── */
+html { scroll-behavior: smooth; }
 
-/* Info — indigo */
-.fern-callout[data-intent="info"],
-[data-intent="info"].fern-callout {
-  background-color: rgba(99, 102, 241, 0.10) !important;
-  border-color: rgba(99, 102, 241, 0.32) !important;
-}
-
-/* Warning — amber */
-.fern-callout[data-intent="warning"],
-[data-intent="warning"].fern-callout {
-  background-color: rgba(245, 158, 11, 0.10) !important;
-  border-color: rgba(245, 158, 11, 0.32) !important;
-}
-
-/* Error — rose */
-.fern-callout[data-intent="error"],
-[data-intent="error"].fern-callout {
-  background-color: rgba(244, 63, 94, 0.10) !important;
-  border-color: rgba(244, 63, 94, 0.32) !important;
-}
-
-/* Success / Note — emerald */
-.fern-callout[data-intent="success"],
-[data-intent="success"].fern-callout,
-.fern-callout[data-intent="note"],
-[data-intent="note"].fern-callout {
-  background-color: rgba(16, 185, 129, 0.10) !important;
-  border-color: rgba(16, 185, 129, 0.32) !important;
-}
-
-/* ── 6. Breadcrumb accent tint ────────────────────── */
-.fern-breadcrumb {
-  color: var(--accent-a10) !important;
-}
-
-.fern-breadcrumb a {
-  color: var(--accent-a11) !important;
-  text-decoration: none !important;
-}
-
-.fern-breadcrumb a:hover {
-  color: var(--accent-a12) !important;
-}
-
-/* ── 7. Table styling ─────────────────────────────── */
-table {
-  border-collapse: separate !important;
-  border-spacing: 0 !important;
-  width: 100% !important;
-}
-
-thead th {
-  background-color: rgba(99, 102, 241, 0.08) !important;
-  border-bottom: 1px solid rgba(99, 102, 241, 0.2) !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.01em !important;
-}
-
-tbody tr:hover td {
-  background-color: rgba(255, 255, 255, 0.03) !important;
-}
-
-/* ── 8. Restore focus ring ────────────────────────── */
-:focus-visible {
-  outline: 2px solid rgba(194, 194, 204, 0.6) !important;
-  outline-offset: 2px !important;
+/* ── Page max-width breathing room ── */
+.fern-page-content {
+  max-width: 860px;
 }
