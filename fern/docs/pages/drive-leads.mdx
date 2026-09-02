@@ -1,0 +1,32 @@
+# Private-Source Recent Leads
+
+This page contains **recall-first leads imported from private Drive datasets** covering 2016–2026. It is intentionally separate from the Full Incident Dataset: rows here have not been independently reviewed, verified, or merged with other rows.
+
+The current import contains **177 source rows representing 172 distinct normalized names**. Duplicate rows, alternate spellings, incomplete names, and conflicting source-dataset entries remain visible in the machine-readable data so that later reconciliation does not erase potentially meaningful differences.
+
+> Inclusion on this page is not a conclusion that a fatality occurred, that the person was a postsecondary student, or that a social organization was involved. It records a lead requiring review.
+
+## Privacy and provenance
+
+The underlying CSV files and raw source URLs remain private. The public export identifies only the private source-dataset label and selected record fields needed for transparent triage. No Drive file IDs, Drive links, article URLs, search queries, or private notes are published here.
+
+## Record fields
+
+| Field | Meaning |
+|---|---|
+| `victim_name_as_recorded` | Name exactly as recorded in the private dataset. |
+| `year` | Incident year as recorded or extracted from the source row. |
+| `state_as_recorded` | State value as recorded, including blanks or unusual values. |
+| `school_as_recorded` | Institution value as recorded. |
+| `organization_as_recorded` | Organization value as recorded, when present. |
+| `cause_as_recorded` | Cause value as recorded, when present. |
+| `source_dataset_label` | Private filename label, not a public source link. |
+| `review_status` | All current rows are marked `unreviewed_drive_lead`. |
+
+## Download
+
+The machine-readable file is [drive-recent-leads.json](/data/drive-recent-leads.json). It contains selected fields only and does not replace the verified/structured victim dataset. Future Drive reconciliations should append new import batches with a batch identifier rather than rewriting prior rows.
+
+## Review path
+
+A lead can later be reviewed against the private source ledger and public reporting. If it becomes suitable for the structured victim dataset, the original lead row should remain here, with the promoted record receiving its own review and provenance fields. Similar names must not be merged automatically.

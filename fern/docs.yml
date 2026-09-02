@@ -45,6 +45,9 @@ navigation:
           - page: Full Incident Dataset
             path: docs/pages/victim-data.mdx
             icon: docs/assets/lucide/table.svg
+          - page: Private-Source Recent Leads
+            path: docs/pages/drive-leads.mdx
+            icon: docs/assets/lucide/search.svg
       - section: Analytical Context
         contents:
           - page: Methodology & Data Sources
