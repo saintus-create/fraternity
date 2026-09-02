@@ -109,7 +109,8 @@ navigation:
             path: docs/pages/cause-falls.mdx
             icon: docs/assets/lucide/user-minus.svg
           - page: Vehicle & Traffic
-            path: docs/assets/lucide/car.svg
+            path: docs/pages/cause-vehicle.mdx
+            icon: docs/assets/lucide/car.svg
           - page: Drowning
             path: docs/pages/cause-drowning.mdx
             icon: docs/assets/lucide/waves.svg
