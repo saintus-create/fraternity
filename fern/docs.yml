@@ -149,14 +149,18 @@ navbar-links:
     value: https://github.com/fern-support/fraternity
 colors:
   accent-primary:
-    dark: "#c2c2cc"
-    light: "#2c2c35"
+    dark: "#3b5bdb"
+    light: "#3b5bdb"
   background:
-    dark: "#1a1a1e"
-    light: "#f5f5f4"
+    dark: "#0f0f13"
+    light: "#f8f8f8"
 theme:
   page-actions: toolbar
   footer-nav: minimal
+  tabs:
+    style: bubble
+    alignment: center
+    placement: header
 logo:
   dark: docs/assets/logo.svg
   light: docs/assets/logo.svg
