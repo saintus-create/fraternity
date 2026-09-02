@@ -4,21 +4,26 @@ instances:
   - url: fraternity.docs.buildwithfern.com
     edit-this-page:
       github:
-        owner: fern-support
+        owner: saintus-create
         repo: fraternity
         branch: main
-      launch: dashboard
+      launch: github
 ai-search:
   location:
     - docs
 ai-examples:
   enabled: false
 title: Fraternity Incident Database | Documentation
+landing-page:
+  page: Fraternity & Sorority Incident Database
+  path: docs/pages/landing.mdx
+  slug: /
 layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
 css: docs/assets/custom.css
+js: docs/custom.js
 tabs:
   database:
     display-name: Database
@@ -48,9 +53,6 @@ navigation:
           - page: Badge Taxonomy
             path: docs/pages/badge-taxonomy.mdx
             icon: docs/assets/lucide/book.svg
-          - page: Private-Source Recent Leads
-            path: docs/pages/drive-leads.mdx
-            icon: docs/assets/lucide/search.svg
       - section: Analytical Context
         contents:
           - page: Methodology & Data Sources
@@ -150,9 +152,9 @@ navigation:
 navbar-links:
   - type: minimal
     text: GitHub
-    url: https://github.com/fern-support/fraternity
+    url: https://github.com/saintus-create/fraternity
   - type: github
-    value: https://github.com/fern-support/fraternity
+    value: https://github.com/saintus-create/fraternity
 colors:
   accent-primary:
     dark: "#3b5bdb"
