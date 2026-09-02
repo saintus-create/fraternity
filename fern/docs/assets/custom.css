@@ -24,33 +24,27 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -0.02em;
 }
 
-/* ── Bold modern heading sizes ── */
 h1 { font-size: 3.25rem; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; }
 h2 { font-size: 2.2rem; font-weight: 500; line-height: 1.2; letter-spacing: -0.015em; }
 h3 { font-size: 1.6rem; font-weight: 500; line-height: 1.3; letter-spacing: -0.01em; }
 h4, h5, h6 { font-weight: 500; }
 
-/* ── Accent color overrides for slate blue ── */
 :root {
   --accent: #3b5bdb;
   --accent-primary: #3b5bdb;
 }
 
-/* ── Hero-style welcome page: large centered search feel ── */
-/* Push the first page heading down and center it for a landing-page feel */
 .fern-page-heading {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 1.5rem;
 }
 
-/* Center the search bar visually when it appears in the header */
 .fern-search-bar {
   max-width: 560px;
   margin: 0 auto;
 }
 
-/* ── Card enhancements ── */
 .fern-card {
   border-radius: 12px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -60,20 +54,17 @@ h4, h5, h6 { font-weight: 500; }
   box-shadow: 0 8px 24px rgba(59, 91, 219, 0.18);
 }
 
-/* ── Tab bubble style polish ── */
 .fern-tab-button {
   font-family: 'Switzer', sans-serif !important;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
 
-/* ── Callout polish ── */
 .fern-callout {
   border-radius: 10px;
   font-family: 'Switzer', sans-serif !important;
 }
 
-/* ── Badge polish ── */
 .fern-badge {
   display: inline-flex;
   align-items: center;
@@ -88,7 +79,6 @@ h4, h5, h6 { font-weight: 500; }
   transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
 }
 
-/* Every badge remains a compact, selectable filter link; names are not styled as badges. */
 a:has(.fern-badge) {
   display: inline-flex;
   text-decoration: none !important;
@@ -102,24 +92,138 @@ a:has(.fern-badge):focus-visible .fern-badge {
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.16);
 }
 
-/* Consistent table rhythm for multiple one-word badges in a cell. */
 td a:has(.fern-badge) { margin-bottom: 0.18rem; }
 
-/* ── Sidebar nav ── */
 .fern-sidebar-nav-item {
   font-family: 'Switzer', sans-serif !important;
   font-weight: 500;
 }
 
-/* ── Code blocks: keep monospace ── */
 code, pre, .fern-code-block {
   font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace !important;
 }
 
-/* ── Smooth scrolling ── */
 html { scroll-behavior: smooth; }
 
-/* ── Page max-width breathing room ── */
 .fern-page-content {
   max-width: 860px;
+}
+
+/* ── Full-screen entry experience ── */
+body.fraternity-landing-active {
+  overflow: hidden !important;
+  background: #07080b !important;
+}
+
+body.fraternity-landing-active .fern-header,
+body.fraternity-landing-active .fern-sidebar,
+body.fraternity-landing-active .fern-toc,
+body.fraternity-landing-active .fern-page-heading,
+body.fraternity-landing-active .fern-layout-footer-toolbar,
+body.fraternity-landing-active footer {
+  display: none !important;
+}
+
+body.fraternity-landing-active main,
+body.fraternity-landing-active [role="main"] {
+  min-height: 100vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.fraternity-landing-active .fern-page-content,
+body.fraternity-landing-active article {
+  max-width: none !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#fraternity-entry {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #07080b;
+}
+
+.fraternity-webgl {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.fraternity-entry-ui {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.fraternity-entry-mark {
+  position: absolute;
+  top: 34px;
+  left: 38px;
+  color: rgba(235, 239, 248, 0.68);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+}
+
+.fraternity-enter {
+  pointer-events: auto;
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid rgba(235, 239, 248, 0.6);
+  padding: 7px 0 8px;
+  background: transparent;
+  color: rgba(245, 247, 252, 0.92);
+  font: 500 12px/1 'Switzer', sans-serif;
+  letter-spacing: 0.28em;
+  cursor: pointer;
+  transition: opacity 180ms ease, border-color 180ms ease, letter-spacing 180ms ease;
+}
+
+.fraternity-enter:hover,
+.fraternity-enter:focus-visible {
+  outline: none;
+  border-color: rgba(245, 247, 252, 0.95);
+  letter-spacing: 0.34em;
+}
+
+.fraternity-enter:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+body.fraternity-entering #fraternity-entry {
+  animation: fraternity-entry-exit 650ms cubic-bezier(.65,0,.35,1) forwards;
+}
+
+@keyframes fraternity-entry-exit {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(1.025); }
+}
+
+@media (max-width: 640px) {
+  .fraternity-entry-mark {
+    top: 24px;
+    left: 24px;
+    font-size: 9px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fraternity-enter,
+  body.fraternity-entering #fraternity-entry {
+    transition: none;
+    animation: none;
+  }
 }
