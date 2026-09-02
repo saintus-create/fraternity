@@ -45,6 +45,9 @@ navigation:
           - page: Full Incident Dataset
             path: docs/pages/victim-data.mdx
             icon: docs/assets/lucide/table.svg
+          - page: Badge Taxonomy
+            path: docs/pages/badge-taxonomy.mdx
+            icon: docs/assets/lucide/book.svg
           - page: Private-Source Recent Leads
             path: docs/pages/drive-leads.mdx
             icon: docs/assets/lucide/search.svg

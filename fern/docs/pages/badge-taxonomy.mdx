@@ -1,0 +1,27 @@
+# Badge Taxonomy
+
+The database uses a unified badge system for every classification field. **Names remain plain text.** Every other visible classification is represented by a compact, clickable pill so the same label has the same meaning and destination throughout the site.
+
+## One-word labels
+
+| Dimension | Badge labels | Destination |
+|---|---|---|
+| Mechanism or cause | `Fall`, `Drown`, `Fire`, `Vehicle`, `Physical`, `Alcohol`, `Overdose`, `Suicide` | Cause pages |
+| Activity or context | `Hazing`, `Ritual`, `Pledge`, `Party`, `Sports` | Context or methodology pages |
+| Location | `Campus`, `Offcampus`, `Unknown` | Geography or unknown-data pages |
+| Record state | `Unreviewed`, `Lead`, `Verified`, `Conflict`, `Unknown` | Data-status or review views |
+| Organization | Stable acronym such as `ATO`, `SAE`, `DKE`, or `PKP` | Organization index |
+
+A record may carry more than one badge when the badges describe different dimensions. For example, a record can carry `Balcony` and `Fall` if the database adopts `Balcony` as a mechanism/context label and `Fall` as the broader mechanism. It must not receive a second badge merely because the narrative repeats the same fact, such as “fell” and “found.” Discovery wording remains in the description or status fields.
+
+## Organization acronyms
+
+Organization badges use a stable short identifier for scanning and filtering. The full recorded organization name is preserved in the underlying record and may differ from the visible acronym when historical naming, chapter naming, or source wording is uncertain. Similar-looking acronyms are not treated as proof that two organizations are the same.
+
+## Color semantics
+
+Red badges identify high-risk or cause-related categories such as `Alcohol`, `Fire`, `Overdose`, and `Suicide`. Blue badges identify movement or water mechanisms such as `Fall`, `Balcony`, and `Drown`. Amber badges identify physical or transport mechanisms such as `Physical` and `Vehicle`. Green badges identify organization acronyms. Neutral badges identify `Unknown`, `Lead`, or unresolved data states. These colors are visual aids, not confidence scores or findings of responsibility.
+
+## Preservation rule
+
+The badge layer is a display and navigation layer. It must never overwrite the original recorded name, organization, cause, role, school, or narrative. When a source has conflicting names or appears to swap a deceased person with a living member, the conflicting rows remain separate and receive a `Conflict` status rather than being silently merged.
