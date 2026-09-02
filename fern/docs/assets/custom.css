@@ -1,100 +1,705 @@
-/* ── Switzer font via Bunny Fonts ── */
-@import url('https://fonts.bunny.net/css?family=switzer:300,400,500,600,700,800&display=swap');
+/* ─────────────────────────────────────────────
+   Fraternity Incident Database — Custom Styles
+   Monochrome light-first, Switzer, slate blue accent
+   ───────────────────────────────────────────── */
 
-/* ── Apply Switzer everywhere ── */
-body,
-.fern-page-heading,
-.fern-sidebar,
-.fern-header,
-.fern-toc,
-p, li, td, th, label, button, input {
-  font-family: 'Switzer', sans-serif !important;
+/* 1. FONT IMPORT */
+@import url('https://fonts.bunny.net/css?family=switzer:300,400,500,600,700&display=swap');
+
+/* 2. BASE RESET & FONT */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-body, p, li {
-  font-size: 1.05rem;
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Switzer', system-ui, sans-serif;
+  font-size: 1rem;
   font-weight: 400;
+  line-height: 1.8;
+  color: #111111;
+  background-color: #ffffff;
+  letter-spacing: 0.005em;
 }
 
-h1, h2, h3, h4, h5, h6,
-.fern-page-heading h1,
-.fern-page-heading h2 {
-  font-family: 'Switzer', sans-serif !important;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-/* ── Bold modern heading sizes ── */
-h1 { font-size: 3.25rem; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; }
-h2 { font-size: 2.2rem; font-weight: 500; line-height: 1.2; letter-spacing: -0.015em; }
-h3 { font-size: 1.6rem; font-weight: 500; line-height: 1.3; letter-spacing: -0.01em; }
-h4, h5, h6 { font-weight: 500; }
-
-/* ── Accent color overrides for slate blue ── */
+/* ── Accent: monochrome by default, blue only where intentional ── */
 :root {
-  --accent: #3b5bdb;
-  --accent-primary: #3b5bdb;
+  --accent: #1a1a1a;
+  --accent-primary: #1a1a1a;
 }
 
-/* ── Hero-style welcome page: large centered search feel ── */
-/* Push the first page heading down and center it for a landing-page feel */
+.dark, [data-theme="dark"] {
+  --accent: #e8e8e8;
+  --accent-primary: #e8e8e8;
+}
+
+/* 3. PROSE — the core reading column */
+.fern-prose {
+  max-width: 68ch;          /* optimal reading width */
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+.fern-prose p {
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  orphans: 3;
+  widows: 3;
+}
+
+.fern-prose p + p {
+  margin-top: 0;
+}
+
+.fern-prose li {
+  margin-bottom: 0.4em;
+  line-height: 1.7;
+}
+
+.fern-prose ul, .fern-prose ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+/* 4. HEADINGS */
+h1, h2, h3, h4, h5, h6,
 .fern-page-heading {
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
+  font-family: 'Switzer', system-ui, sans-serif;
+  font-weight: 500;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  margin-top: 0;
 }
 
-/* Center the search bar visually when it appears in the header */
-.fern-search-bar {
-  max-width: 560px;
-  margin: 0 auto;
+h1, .fern-page-heading { font-size: 3rem;   line-height: 1.08; margin-bottom: 0.5em; }
+h2                      { font-size: 2rem;   line-height: 1.15; margin-bottom: 0.4em; margin-top: 2.5em; }
+h3                      { font-size: 1.5rem; line-height: 1.25; margin-bottom: 0.35em; margin-top: 2em; letter-spacing: -0.01em; }
+h4                      { font-size: 1.15rem; line-height: 1.35; margin-bottom: 0.3em; margin-top: 1.5em; letter-spacing: 0; }
+h5, h6                  { font-size: 1rem;   line-height: 1.5; margin-bottom: 0.25em; }
+
+/* First heading on page needs no top margin */
+.fern-prose > h2:first-child,
+.fern-prose > h3:first-child {
+  margin-top: 0;
 }
 
-/* ── Card enhancements ── */
-.fern-card {
-  border-radius: 12px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+/* 5. LINKS — slate blue, no underline at rest */
+a, a:visited {
+  color: #3b5bdb;
+  text-decoration: none;
+  transition: color 0.1s ease;
 }
-.fern-card.interactive:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(59, 91, 219, 0.18);
+a:hover {
+  color: #2f4ac4;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-/* ── Tab bubble style polish ── */
-.fern-tab-button {
-  font-family: 'Switzer', sans-serif !important;
+/* 6. HEADER */
+#fern-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+/* 7. SIDEBAR */
+#fern-sidebar {
+  background-color: #fafafa;
+  border-right: 1px solid #ebebeb;
+}
+
+.fern-sidebar-heading-content {
+  font-family: 'Switzer', sans-serif;
+  font-size: 0.7rem;
   font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.fern-sidebar-link {
+  font-family: 'Switzer', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #444444;
+  border-radius: 6px;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.fern-sidebar-link:hover {
+  background-color: #f0f0f0;
+  color: #111111;
+}
+
+/* ── Slate blue: active sidebar item only ── */
+.fern-sidebar-link[data-state="active"],
+.fern-sidebar-link[aria-current="page"] {
+  background-color: #eef1fd;
+  color: #3b5bdb;
+  font-weight: 500;
+}
+
+/* ── Slate blue: Ask AI button ── */
+.fern-button.primary,
+[data-testid="ask-ai-button"],
+.fern-ask-ai-button {
+  background-color: #3b5bdb !important;
+  color: #ffffff !important;
+  border-color: #3b5bdb !important;
+}
+
+/* 8. CARDS */
+.fern-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+/* ── Slate blue: card hover border only ── */
+.fern-card.interactive:hover {
+  border-color: #3b5bdb;
+  box-shadow: 0 4px 20px rgba(59, 91, 219, 0.08);
+  transform: translateY(-1px);
+}
+
+/* 9. CALLOUTS — monochrome, left-border only */
+.fern-callout {
+  border-radius: 6px;
+  border-left-width: 3px;
+  border-left-color: #d4d4d4;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* 10. BADGES — grey by default unless explicitly colored in MDX */
+.fern-badge {
+  font-family: 'Switzer', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 2px 7px;
+  background-color: #f0f0f0;
+  color: #333333;
+  border: 1px solid #e0e0e0;
+}
+
+/* 11. TABLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+thead th {
+  font-family: 'Switzer', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888888;
+  background-color: #f7f7f7;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #f2f2f2;
+  color: #1a1a1a;
+  vertical-align: top;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover td {
+  background-color: #fafafa;
+}
+
+/* 12. CODE */
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.85em;
+  background-color: #f4f4f5;
+  color: #111111;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+pre, .fern-code-block {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+
+/* 13. TABS — no blue underline/bubble */
+.fern-tab-button {
+  font-family: 'Switzer', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
   letter-spacing: 0.01em;
 }
 
-/* ── Callout polish ── */
-.fern-callout {
-  border-radius: 10px;
-  font-family: 'Switzer', sans-serif !important;
+.fern-tab-button[data-state="active"] {
+  color: #111111;
+  background-color: #f0f0f0;
 }
 
-/* ── Badge polish ── */
-.fern-badge {
-  font-family: 'Switzer', sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+/* 14. PAGE HEADING — centered for overview/landing pages */
+.fern-layout-overview .fern-page-heading,
+.fern-layout-overview .fern-page-subtitle {
+  text-align: center;
 }
 
-/* ── Sidebar nav ── */
-.fern-sidebar-nav-item {
-  font-family: 'Switzer', sans-serif !important;
+/* 15. BREADCRUMB */
+.fern-breadcrumb-item {
+  font-size: 0.8rem;
+  color: #999999;
+}
+
+/* 16. TOC */
+#fern-toc {
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+/* 17. FOOTER NAV */
+.fern-footer-nav {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+/* 18. DARK MODE */
+.dark body,
+[data-theme="dark"] body {
+  color: #e8e8e8;
+  background-color: #0a0a0a;
+}
+
+.dark .fern-prose,
+[data-theme="dark"] .fern-prose {
+  color: #d4d4d4;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4 {
+  color: #f5f5f5;
+}
+
+.dark a, .dark a:visited,
+[data-theme="dark"] a,
+[data-theme="dark"] a:visited {
+  color: #7c9ef8;
+}
+
+.dark a:hover,
+[data-theme="dark"] a:hover {
+  color: #a5b8fb;
+}
+
+.dark #fern-header,
+[data-theme="dark"] #fern-header {
+  background-color: #0a0a0a;
+  border-bottom-color: #1e1e1e;
+}
+
+.dark #fern-sidebar,
+[data-theme="dark"] #fern-sidebar {
+  background-color: #0d0d0d;
+  border-right-color: #1e1e1e;
+}
+
+.dark .fern-sidebar-link,
+[data-theme="dark"] .fern-sidebar-link {
+  color: #aaaaaa;
+}
+
+.dark .fern-sidebar-link:hover,
+[data-theme="dark"] .fern-sidebar-link:hover {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark .fern-sidebar-link[data-state="active"],
+.dark .fern-sidebar-link[aria-current="page"],
+[data-theme="dark"] .fern-sidebar-link[data-state="active"],
+[data-theme="dark"] .fern-sidebar-link[aria-current="page"] {
+  background-color: #1a2040;
+  color: #7c9ef8;
+}
+
+.dark .fern-card,
+[data-theme="dark"] .fern-card {
+  background-color: #111111;
+  border-color: #222222;
+}
+
+.dark .fern-card.interactive:hover,
+[data-theme="dark"] .fern-card.interactive:hover {
+  border-color: #5c7cfa;
+  box-shadow: 0 4px 20px rgba(92, 124, 250, 0.12);
+}
+
+.dark .fern-callout,
+[data-theme="dark"] .fern-callout {
+  border-left-color: #333333;
+}
+
+.dark .fern-badge,
+[data-theme="dark"] .fern-badge {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border-color: #2a2a2a;
+}
+
+.dark .fern-tab-button[data-state="active"],
+[data-theme="dark"] .fern-tab-button[data-state="active"] {
+  color: #f0f0f0;
+  background-color: #1e1e1e;
+}
+
+.dark code,
+[data-theme="dark"] code {
+  background-color: #1a1a1a;
+  color: #e8e8e8;
+  border-color: #2a2a2a;
+}
+
+.dark thead th,
+[data-theme="dark"] thead th {
+  background-color: #111111;
+  color: #666666;
+  border-bottom-color: #222222;
+}
+
+.dark tbody td,
+[data-theme="dark"] tbody td {
+  border-bottom-color: #1a1a1a;
+  color: #d4d4d4;
+}
+
+.dark tbody tr:hover td,
+[data-theme="dark"] tbody tr:hover td {
+  background-color: #141414;
+}
+
+.dark .fern-footer-nav,
+[data-theme="dark"] .fern-footer-nav {
+  border-top-color: #1e1e1e;
+}
+
+/* ─────────────────────────────────────────────
+   SWISS GRID — Spacious, wide sidebar, strict rhythm
+   ───────────────────────────────────────────── */
+
+/* 1. GRID DIMENSIONS */
+:root {
+  --sidebar-width: 22rem;        /* extra wide — default is 18rem */
+  --page-padding: 3rem;          /* generous horizontal breathing room */
+  --content-width: 72ch;         /* optimal prose column */
+}
+
+/* 2. SIDEBAR — wide, structured, airy */
+#fern-sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  padding: 2rem 1.5rem;
+  background-color: #fafafa;
+  border-right: 1px solid #e8e8e8;
+}
+
+/* Sidebar section headings — Swiss label style */
+.fern-sidebar-heading-content {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* Sidebar links — generous padding, clean */
+.fern-sidebar-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #444444;
+  padding: 0.45rem 0.75rem;
+  border-radius: 5px;
+  line-height: 1.4;
+  margin-bottom: 1px;
+  display: block;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.fern-sidebar-link:hover {
+  background-color: #f0f0f0;
+  color: #111111;
+}
+
+.fern-sidebar-link[data-state="active"],
+.fern-sidebar-link[aria-current="page"] {
+  background-color: #eef1fd;
+  color: #3b5bdb;
   font-weight: 500;
 }
 
-/* ── Code blocks: keep monospace ── */
-code, pre, .fern-code-block {
-  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace !important;
+/* 3. HEADER — full width, clean rule */
+#fern-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e8e8e8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 4rem;
 }
 
-/* ── Smooth scrolling ── */
-html { scroll-behavior: smooth; }
+/* 4. MAIN CONTENT — spacious, grid-aligned */
+.fern-main {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
 
-/* ── Page max-width breathing room ── */
-.fern-page-content {
-  max-width: 860px;
+.fern-layout-page {
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+}
+
+/* 5. PROSE COLUMN — strict width, generous leading */
+.fern-prose {
+  max-width: var(--content-width);
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #1a1a1a;
+  letter-spacing: 0.008em;
+}
+
+/* 6. PAGE HEADING — Swiss typographic anchor */
+.fern-page-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: #0a0a0a;
+  margin-bottom: 0.75rem;
+  text-wrap: balance;
+}
+
+/* Page subtitle */
+.fern-page-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 56ch;
+}
+
+/* 7. SECTION SPACING — vertical rhythm */
+.fern-prose h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 0.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eeeeee;
+}
+
+.fern-prose h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fern-prose h4 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.4rem;
+}
+
+/* 8. CARD GRID — Swiss column grid */
+.fern-card-group {
+  gap: 1.25rem;
+}
+
+.fern-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.fern-card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #0a0a0a;
+  margin-bottom: 0.35rem;
+}
+
+.fern-card-description {
+  font-size: 0.875rem;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* 9. TABLE — Swiss data grid */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+thead th {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999999;
+  background-color: transparent;
+  padding: 0.6rem 1rem;
+  border-bottom: 2px solid #111111;
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #eeeeee;
+  color: #1a1a1a;
+  vertical-align: top;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover td {
+  background-color: #fafafa;
+}
+
+/* 10. TOC — right column, airy */
+#fern-toc {
+  font-size: 0.78rem;
+  line-height: 1.7;
+  padding-left: 1.5rem;
+  border-left: 1px solid #eeeeee;
+}
+
+/* 11. FOOTER NAV */
+.fern-footer-nav {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eeeeee;
+}
+
+/* 12. DARK MODE */
+.dark #fern-sidebar,
+[data-theme="dark"] #fern-sidebar {
+  background-color: #0d0d0d;
+  border-right-color: #1e1e1e;
+}
+
+.dark .fern-sidebar-heading-content,
+[data-theme="dark"] .fern-sidebar-heading-content {
+  color: #555555;
+}
+
+.dark .fern-sidebar-link,
+[data-theme="dark"] .fern-sidebar-link {
+  color: #888888;
+}
+
+.dark .fern-sidebar-link:hover,
+[data-theme="dark"] .fern-sidebar-link:hover {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark .fern-sidebar-link[data-state="active"],
+.dark .fern-sidebar-link[aria-current="page"],
+[data-theme="dark"] .fern-sidebar-link[data-state="active"],
+[data-theme="dark"] .fern-sidebar-link[aria-current="page"] {
+  background-color: #151c3a;
+  color: #7c9ef8;
+}
+
+.dark #fern-header,
+[data-theme="dark"] #fern-header {
+  background-color: #0a0a0a;
+  border-bottom-color: #1e1e1e;
+}
+
+.dark .fern-prose,
+[data-theme="dark"] .fern-prose {
+  color: #d4d4d4;
+}
+
+.dark .fern-page-heading,
+[data-theme="dark"] .fern-page-heading {
+  color: #f5f5f5;
+}
+
+.dark .fern-page-subtitle,
+[data-theme="dark"] .fern-page-subtitle {
+  color: #777777;
+}
+
+.dark .fern-prose h2,
+[data-theme="dark"] .fern-prose h2 {
+  border-top-color: #1e1e1e;
+}
+
+.dark thead th,
+[data-theme="dark"] thead th {
+  background-color: transparent;
+  border-bottom-color: #e8e8e8;
+  color: #555555;
+}
+
+.dark tbody td,
+[data-theme="dark"] tbody td {
+  border-bottom-color: #1a1a1a;
+  color: #cccccc;
+}
+
+.dark tbody tr:hover td,
+[data-theme="dark"] tbody tr:hover td {
+  background-color: #111111;
+}
+
+.dark #fern-toc,
+[data-theme="dark"] #fern-toc {
+  border-left-color: #1e1e1e;
+}
+
+.dark .fern-footer-nav,
+[data-theme="dark"] .fern-footer-nav {
+  border-top-color: #1e1e1e;
+}
+
+.dark .fern-card,
+[data-theme="dark"] .fern-card {
+  background-color: #0f0f0f;
+  border-color: #1e1e1e;
 }
