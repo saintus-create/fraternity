@@ -31,6 +31,9 @@ navigation:
     layout:
       - section: Overview
         contents:
+          - page: Landing
+            path: docs/pages/landing.mdx
+            hidden: true
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: docs/assets/lucide/home.svg
