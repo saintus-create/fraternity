@@ -109,8 +109,7 @@ navigation:
             path: docs/pages/cause-falls.mdx
             icon: docs/assets/lucide/user-minus.svg
           - page: Vehicle & Traffic
-            path: docs/pages/cause-vehicle.mdx
-            icon: docs/assets/lucide/car.svg
+            path: docs/assets/lucide/car.svg
           - page: Drowning
             path: docs/pages/cause-drowning.mdx
             icon: docs/assets/lucide/waves.svg
@@ -165,10 +164,7 @@ colors:
 theme:
   page-actions: toolbar
   footer-nav: minimal
-  tabs:
-    style: bubble
-    alignment: center
-    placement: header
+  tabs: bubble
 logo:
   dark: docs/assets/logo.svg
   light: docs/assets/logo.svg
