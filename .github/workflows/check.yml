@@ -13,13 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "lts/*"
-
-      - name: Install Fern CLI tool
+      - name: Setup Fern CLI
         uses: fern-api/setup-fern-cli@v1
 
-      - name: Check API is valid
+      - name: Validate Fern configuration
         run: fern check
+
+      - name: Validate MDX
+        run: fern docs md check
